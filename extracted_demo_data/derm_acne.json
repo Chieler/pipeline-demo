@@ -1,0 +1,695 @@
+{
+  "id": "derm_acne_iso",
+  "specialty": "derm",
+  "label": "Acne · isotretinoin",
+  "review": {
+    "status": "draft"
+  },
+  "patient": {
+    "first": "Emma",
+    "full": "Emma Clarke",
+    "initials": "EC",
+    "email": "emma.clarke@example.com"
+  },
+  "onboarding": {
+    "medications": "Isotretinoin 20mg + topical retinoid",
+    "questionSet": "Acne · isotretinoin",
+    "dailyGoals": "2.5 L water · low-dairy diet",
+    "appointments": "4 booked · next 16 Sep"
+  },
+  "today": {
+    "course": "Week 6 · Isotretinoin course · Day 41 of 120",
+    "checkInPrompt": "How is your skin today?",
+    "checkInHint": "Talk, type, or show me a photo.",
+    "items": [
+      {
+        "label": "Isotretinoin 20mg",
+        "detail": "With food · 9:00 pm",
+        "action": "log"
+      },
+      {
+        "label": "SPF 50 — reapply",
+        "detail": "Photosensitising medication",
+        "action": "check"
+      },
+      {
+        "label": "Water",
+        "detail": "1.6 of 2.5 L",
+        "action": "progress",
+        "pct": 64
+      }
+    ],
+    "next": {
+      "heading": "Next procedure",
+      "title": "Chemical peel",
+      "badge": "Prep required",
+      "detail": "Session 2 of 4 · Tue 16 Sep, 10:30 am",
+      "linkLabel": "View your 3 preparation steps →"
+    }
+  },
+  "checkIn": {
+    "sample": "The dryness around my mouth is worse since Friday, my lips keep cracking, and my knees have been aching in the mornings.",
+    "photo": {
+      "caption": "Chin · 9:41 am",
+      "url": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=80&h=80&fit=crop&auto=format"
+    },
+    "reply": "Noted — dryness, chapped lips and joint pain, with a photo of your chin. Anything else?",
+    "chips": [
+      "Dryness",
+      "Chapped lips",
+      "Joint pain",
+      "Mood change",
+      "Nosebleed"
+    ]
+  },
+  "severity": {
+    "zonesQuestion": "Where on your face?",
+    "zones": [
+      "Chin",
+      "Around mouth",
+      "Jawline",
+      "Left cheek",
+      "Right cheek",
+      "Forehead",
+      "Nose"
+    ],
+    "selected": [
+      "Chin",
+      "Around mouth"
+    ],
+    "photoPrompt": true,
+    "savedAs": "Dryness · Chapped lips · Joint pain",
+    "savedAt": "Tue 9 Sep, 9:42 am"
+  },
+  "flagged": {
+    "trigger": "Joint pain at severity 4",
+    "at": "9:42 am",
+    "quote": "…the dryness around my mouth is worse, and my knees have been aching in the mornings.",
+    "detail": "Marked · Chin, around mouth · 1 photo",
+    "severity": 4
+  },
+  "photo": {
+    "zones": [
+      "Forehead",
+      "Left cheek",
+      "Chin",
+      "Jawline"
+    ],
+    "selected": "Chin",
+    "overlayTitle": "Last week overlaid",
+    "overlayDetail": "Same window, same time — 9:00 am daylight",
+    "url": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=400&h=500&fit=crop&auto=format"
+  },
+  "compare": {
+    "zones": [
+      "Chin",
+      "Cheeks",
+      "Jawline",
+      "Forehead"
+    ],
+    "selected": "Chin",
+    "photos": [
+      {
+        "label": "Week 1",
+        "date": "30 Jul · 9:04 am",
+        "url": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=200&h=240&fit=crop&auto=format&sat=-30"
+      },
+      {
+        "label": "Week 6",
+        "date": "9 Sep · 9:41 am",
+        "url": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=200&h=240&fit=crop&auto=format"
+      }
+    ],
+    "from": 4,
+    "to": 2,
+    "badge": "↓ 2 since week 1",
+    "caption": "Your own photos, your own ratings, side by side."
+  },
+  "trend": {
+    "title": "Severity you reported",
+    "subtitle": "Weeks 1–6 · 34 entries · scale 1–5",
+    "data": [
+      {
+        "week": "W1",
+        "avg": 4.1
+      },
+      {
+        "week": "W2",
+        "avg": 3.8
+      },
+      {
+        "week": "W3",
+        "avg": 3.5
+      },
+      {
+        "week": "W4",
+        "avg": 3.1
+      },
+      {
+        "week": "W5",
+        "avg": 2.8
+      },
+      {
+        "week": "W6",
+        "avg": 2.3
+      }
+    ],
+    "reference": {
+      "y": 2.8,
+      "label": "Week 5 · avg 2.8"
+    },
+    "stats": [
+      {
+        "n": "34",
+        "label": "Entries"
+      },
+      {
+        "n": "12",
+        "label": "Photos"
+      },
+      {
+        "n": "1",
+        "label": "Flagged"
+      }
+    ],
+    "topLogged": [
+      {
+        "label": "Dryness",
+        "n": 18
+      },
+      {
+        "label": "Chapped lips",
+        "n": 11
+      },
+      {
+        "label": "Joint pain",
+        "n": 4
+      }
+    ],
+    "exportLabel": "Export weeks 1–6 as PDF"
+  },
+  "plan": {
+    "course": {
+      "label": "Acne · isotretinoin",
+      "detail": "Day 41 of 120",
+      "pct": 34
+    },
+    "comingUp": [
+      {
+        "title": "Chemical peel",
+        "detail": "Session 2 of 4 · Tue 16 Sep, 10:30 am",
+        "badge": "3 prep steps",
+        "link": "procedure"
+      },
+      {
+        "title": "Bloodwork",
+        "detail": "Liver panel + lipids · due within 13 days",
+        "note": "Tied to isotretinoin",
+        "link": "medication"
+      },
+      {
+        "title": "Follow-up consult",
+        "detail": "Not booked yet",
+        "request": true
+      }
+    ],
+    "done": [
+      {
+        "title": "Chemical peel",
+        "detail": "Session 1 of 4 · Tue 19 Aug, 11:00 am",
+        "tag": "Aftercare",
+        "link": "aftercare"
+      }
+    ]
+  },
+  "procedure": {
+    "title": "Chemical peel",
+    "subtitle": "Session 2 of 4",
+    "timeline": [
+      {
+        "n": "19 Aug",
+        "active": false,
+        "done": true
+      },
+      {
+        "n": "2",
+        "active": true,
+        "done": false
+      },
+      {
+        "n": "16 Sep",
+        "active": false,
+        "done": false
+      },
+      {
+        "n": "3",
+        "active": false,
+        "done": false
+      },
+      {
+        "n": "—",
+        "active": false,
+        "done": false
+      },
+      {
+        "n": "4",
+        "active": false,
+        "done": false
+      },
+      {
+        "n": "—",
+        "active": false,
+        "done": false
+      }
+    ],
+    "when": "Tue 16 Sep · 10:30 am",
+    "room": "Room 3",
+    "prepTitle": "Before you come",
+    "prep": [
+      {
+        "label": "Arrive without makeup",
+        "detail": "Including tinted SPF and brow product."
+      },
+      {
+        "label": "Stop your topical retinoid 48 hours before",
+        "detail": "Pause the topical only — keep taking your capsule."
+      },
+      {
+        "label": "No sun exposure for 3 days prior",
+        "detail": "SPF 50 as usual, but avoid direct midday sun."
+      }
+    ]
+  },
+  "aftercare": {
+    "title": "Aftercare",
+    "subtitle": "Chemical peel · Session 1 · 19 Aug",
+    "released": "Released on its own two hours after your session ended.",
+    "phases": [
+      {
+        "label": "First 24 hours",
+        "steps": [
+          "Cool water only — no cleanser, no actives.",
+          "Expect tightness and a light sunburn feeling.",
+          "No make-up, no gym, no steam."
+        ]
+      },
+      {
+        "label": "Days 2–3",
+        "steps": [
+          "Bland moisturiser as often as it feels dry.",
+          "Light flaking is normal. Do not pick or peel it off.",
+          "SPF 50 every morning without exception."
+        ]
+      },
+      {
+        "label": "Days 4–7",
+        "steps": [
+          "Resume your usual cleanser.",
+          "Keep retinoids paused until day 7.",
+          "Book session 2 if it is not already in your plan."
+        ]
+      }
+    ],
+    "warnings": [
+      "Redness spreads beyond the treated area",
+      "Blistering, weeping or crusting appears",
+      "You run a fever"
+    ]
+  },
+  "medication": {
+    "name": "Isotretinoin 20mg",
+    "schedule": "Started 30 July · day 41 of 120 · Every evening, with food · 9:00 pm",
+    "adherencePct": 92,
+    "because": [
+      {
+        "label": "Bloodwork every 4 weeks",
+        "detail": "Liver panel + lipids · next 22 Sep",
+        "note": "In 13 days",
+        "done": false
+      },
+      {
+        "label": "SPF 50 every morning",
+        "detail": "This medication is photosensitising",
+        "note": "Done today",
+        "done": true
+      }
+    ],
+    "tracked": [
+      "Dryness",
+      "Chapped lips",
+      "Joint pain",
+      "Mood change",
+      "Nosebleed",
+      "Dry eyes"
+    ],
+    "chosenFor": "isotretinoin"
+  },
+  "records": {
+    "tabs": [
+      "All",
+      "Consent",
+      "Prescriptions",
+      "Aftercare",
+      "Reports"
+    ],
+    "items": [
+      {
+        "label": "Progress report · weeks 1–6",
+        "detail": "Generated 9 Sep, 9:00 am · from your entries",
+        "badge": "New",
+        "link": "trend"
+      },
+      {
+        "label": "Liver panel + lipids",
+        "detail": "Result received 25 Aug, 8:15 am",
+        "badge": null
+      },
+      {
+        "label": "Aftercare · chemical peel session 1",
+        "detail": "Released 19 Aug, 1:00 pm",
+        "badge": null,
+        "link": "aftercare"
+      },
+      {
+        "label": "Consent · chemical peel course",
+        "detail": "Signed 19 Aug, 10:12 am",
+        "badge": null
+      }
+    ]
+  },
+  "clinics": {
+    "since": "30 Jul",
+    "courses": [
+      {
+        "label": "Acne · isotretinoin",
+        "status": "Day 41 of 120 · Active",
+        "prep": false
+      },
+      {
+        "label": "Chemical peel",
+        "status": "Session 2 of 4 · Prep due",
+        "prep": true
+      }
+    ]
+  },
+  "console": {
+    "roster": {
+      "alertTitle": "1 flagged entry is waiting for review",
+      "alert": "Emma Clarke reported severity 4 with joint pain at 9:42 am — it matched your isotretinoin watch list.",
+      "title": "306 active courses · 6 clinicians",
+      "patients": [
+        {
+          "initials": "EC",
+          "name": "Emma Clarke",
+          "age": 32,
+          "joined": "30 Jul",
+          "course": "Acne · isotretinoin — day 41",
+          "last": "12 min ago",
+          "status": "flagged",
+          "severity": 4,
+          "isSample": true
+        },
+        {
+          "initials": "OH",
+          "name": "Olivia Hart",
+          "age": 27,
+          "joined": "14 Aug",
+          "course": "Chemical peel — session 2 of 4",
+          "last": "2 hours ago",
+          "status": "improving",
+          "severity": 2
+        },
+        {
+          "initials": "JF",
+          "name": "James Fletcher",
+          "age": 41,
+          "joined": "2 Jun",
+          "course": "Rosacea · topical",
+          "last": "Yesterday",
+          "status": "steady",
+          "severity": 2
+        },
+        {
+          "initials": "CW",
+          "name": "Charlotte Woods",
+          "age": 35,
+          "joined": "21 Jul",
+          "course": "Acne · isotretinoin — day 52",
+          "last": "Yesterday",
+          "status": "improving",
+          "severity": 2
+        },
+        {
+          "initials": "SM",
+          "name": "Sophie Morgan",
+          "age": 29,
+          "joined": "9 Sep",
+          "course": "Laser resurfacing — session 1 of 3",
+          "last": "4 days ago",
+          "status": "prep",
+          "severity": 3
+        }
+      ]
+    },
+    "patient": {
+      "course": "Acne · isotretinoin 20mg · day 41 of 120 · started 30 July",
+      "chartTitle": "Severity Emma reported",
+      "chartSubtitle": "Weeks 1–6 · 34 entries · her own 1–5 rating",
+      "badge": "↓ 2.2 since week 1",
+      "data": [
+        {
+          "week": "Week 1",
+          "val": 4.2
+        },
+        {
+          "week": "Week 2",
+          "val": 3.9
+        },
+        {
+          "week": "Week 3",
+          "val": 3.6
+        },
+        {
+          "week": "Week 4",
+          "val": 3
+        },
+        {
+          "week": "Week 5",
+          "val": 2.7
+        },
+        {
+          "week": "Week 6",
+          "val": 2
+        }
+      ],
+      "photos": {
+        "title": "Progress photos · chin",
+        "urls": [
+          "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=80&h=80&fit=crop&auto=format&sat=-60",
+          "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=80&h=80&fit=crop&auto=format&sat=-50",
+          "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=80&h=80&fit=crop&auto=format&sat=-40",
+          "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=80&h=80&fit=crop&auto=format&sat=-30",
+          "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=80&h=80&fit=crop&auto=format&sat=-15",
+          "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=80&h=80&fit=crop&auto=format"
+        ]
+      },
+      "entriesTitle": "What she reported",
+      "entriesCount": "34 entries",
+      "entries": [
+        {
+          "severity": 4,
+          "when": "Today, 9:42 am",
+          "flagged": true,
+          "quote": "The dryness around my mouth is worse since Friday, and my knees ache in the morning.",
+          "tags": "Dryness · Joint pain · chin, around mouth · 1 photo"
+        },
+        {
+          "severity": 3,
+          "when": "Yesterday, 8:20 pm",
+          "flagged": false,
+          "quote": "Lips cracked again but the cheeks are calmer than last week.",
+          "tags": "Chapped lips · cheeks"
+        },
+        {
+          "severity": 2,
+          "when": "Sun 7 Sep, 9:05 am",
+          "flagged": false,
+          "quote": "Good day. Barely any flaking.",
+          "tags": "Dryness · 1 photo"
+        }
+      ]
+    },
+    "protocol": {
+      "title": "Acne · isotretinoin",
+      "subtitle": "Configured once · applied to 148 patients on this course",
+      "questions": [
+        "Dryness",
+        "Chapped lips",
+        "Dry eyes",
+        "Nosebleed",
+        "Joint pain",
+        "Mood change",
+        "Vision change"
+      ],
+      "selected": [
+        "Dryness",
+        "Chapped lips",
+        "Dry eyes",
+        "Nosebleed",
+        "Joint pain",
+        "Mood change"
+      ],
+      "goals": [
+        {
+          "label": "Water",
+          "detail": "2.5 L per day"
+        },
+        {
+          "label": "Low-dairy diet",
+          "detail": "Logged at each meal"
+        },
+        {
+          "label": "Progress photo",
+          "detail": "Weekly · chin, cheeks, jawline"
+        }
+      ],
+      "meds": [
+        {
+          "label": "Isotretinoin 20mg",
+          "detail": "Evening, with food · 9:00 pm"
+        },
+        {
+          "label": "Liver panel + lipids",
+          "detail": "Every 4 weeks from start date"
+        },
+        {
+          "label": "SPF 50 daily",
+          "detail": "Photosensitising — reminded each morning"
+        }
+      ]
+    },
+    "outcomes": {
+      "subtitle": "Isotretinoin cohort · 148 patients · rolled up from patient-reported entries",
+      "kpis": [
+        {
+          "n": "148",
+          "label": "Patients on this course",
+          "sub": "+12 since August"
+        },
+        {
+          "n": "−2.2",
+          "label": "Mean change in reported severity",
+          "sub": "Week 1 to week 12"
+        },
+        {
+          "n": "74%",
+          "label": "Still logging at week 12",
+          "sub": "Cohort retention"
+        },
+        {
+          "n": "6",
+          "label": "Flagged entries this month",
+          "sub": "5 reviewed · 1 waiting now",
+          "alert": true
+        }
+      ],
+      "chartSubtitle": "Isotretinoin cohort · scale 1–5 · 4,190 entries",
+      "cohort": [
+        {
+          "week": "W1",
+          "avg": 4
+        },
+        {
+          "week": "W2",
+          "avg": 3.8
+        },
+        {
+          "week": "W3",
+          "avg": 3.5
+        },
+        {
+          "week": "W4",
+          "avg": 3.2
+        },
+        {
+          "week": "W5",
+          "avg": 2.9
+        },
+        {
+          "week": "W6",
+          "avg": 2.6
+        },
+        {
+          "week": "W7",
+          "avg": 2.4
+        },
+        {
+          "week": "W8",
+          "avg": 2.2
+        },
+        {
+          "week": "W9",
+          "avg": 2
+        },
+        {
+          "week": "W10",
+          "avg": 1.9
+        },
+        {
+          "week": "W11",
+          "avg": 1.8
+        },
+        {
+          "week": "W12",
+          "avg": 1.8
+        }
+      ],
+      "sideEffectsTitle": "Most reported side effects",
+      "sideEffects": [
+        {
+          "name": "Dryness",
+          "pct": 88
+        },
+        {
+          "name": "Chapped lips",
+          "pct": 71
+        },
+        {
+          "name": "Dry eyes",
+          "pct": 34
+        },
+        {
+          "name": "Joint pain",
+          "pct": 12
+        },
+        {
+          "name": "Mood change",
+          "pct": 7
+        }
+      ],
+      "distribution": [
+        {
+          "level": "1",
+          "pct": 31
+        },
+        {
+          "level": "2",
+          "pct": 34
+        },
+        {
+          "level": "3",
+          "pct": 21
+        },
+        {
+          "level": "4",
+          "pct": 10
+        },
+        {
+          "level": "5",
+          "pct": 4
+        }
+      ],
+      "distributionNote": "Two thirds of the cohort now report level 1 or 2."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+data/*.sqlite*
+.env
+.streamlit/secrets.toml
+.DS_Store
+.claude/
+.serena/
+# Downloaded demo bundle used during exploration; extracted fixtures are tracked.
+/index.js

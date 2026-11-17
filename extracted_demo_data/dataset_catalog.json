@@ -1,0 +1,60 @@
+{
+  "extracted_at": "2026-11-17T02:01:50.883Z",
+  "source": "https://demo.pipelinesecurities.net",
+  "directory": "/Users/chielerli/Programming/pipeline-demo/extracted_demo_data",
+  "security_audit": "Scanned for adversarial prompt injection payloads, HTML exploits, and arbitrary script markers. Clean.",
+  "files": {
+    "gastro_ibd.json": {
+      "specialty": "Gastroenterology",
+      "scenario": "IBD flare on Prednisone taper 40mg -> 0mg",
+      "primary_patient": "Maya Patel",
+      "cohort_patients": [
+        "Maya Patel",
+        "James Holloway",
+        "Alicia Nunez",
+        "Thomas Whitaker",
+        "Chloe Lam"
+      ],
+      "key_metrics": [
+        "Bristol Stool Scale 1-7",
+        "Visible blood flag",
+        "Nocturnal urgency",
+        "Taper adherence",
+        "Steroid side effects"
+      ]
+    },
+    "oncology_radiation.json": {
+      "specialty": "Oncology",
+      "scenario": "Oral cavity cancer on radiation 33 sessions + weekly cisplatin",
+      "primary_patient": "James C.",
+      "key_metrics": [
+        "Oral mucositis sores 0-4",
+        "Pain 0-10 NRS",
+        "Swallowing level",
+        "Weight trajectory vs 165 lb alert line",
+        "DICOM imaging"
+      ]
+    },
+    "derm_acne.json": {
+      "specialty": "Dermatology",
+      "scenario": "Acne on 120-day Isotretinoin course",
+      "primary_patient": "Emma Clarke",
+      "key_metrics": [
+        "Facial zones",
+        "Daily severity 1-5",
+        "Joint pain flag",
+        "Liver/lipid bloodwork"
+      ]
+    },
+    "gastro_colonoscopy.json": {
+      "specialty": "Gastroenterology",
+      "scenario": "Colonoscopy preparation timeline & instructions",
+      "primary_patient": "Sample Patient",
+      "key_metrics": [
+        "Diet transition (low-residue to clear liquids)",
+        "Split bowel prep dosing",
+        "Aftercare"
+      ]
+    }
+  }
+}

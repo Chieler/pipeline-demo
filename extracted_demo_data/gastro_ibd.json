@@ -1,0 +1,815 @@
+{
+  "id": "oneoff_gastro_ibd",
+  "specialty": "gastro",
+  "label": "IBD · flare monitoring",
+  "review": {
+    "status": "draft"
+  },
+  "patient": {
+    "first": "Maya",
+    "full": "Maya Patel",
+    "initials": "MP",
+    "email": "maya.patel@example.com"
+  },
+  "onboarding": {
+    "medications": "Prednisone taper 40mg → 0 + Folic acid 1mg",
+    "questionSet": "IBD · flare monitoring",
+    "dailyGoals": "2 L fluids · low-residue diet · log every stool",
+    "appointments": "3 booked · next 18 Nov"
+  },
+  "today": {
+    "course": "Week 4 · Prednisone taper · Day 22 of 56",
+    "checkInPrompt": "How is your gut today?",
+    "checkInHint": "Talk, type, or snap a stool photo.",
+    "photoButton": "Stool",
+    "items": [
+      {
+        "label": "Prednisone 25mg",
+        "detail": "Taper step 4 of 8 · with breakfast · 8:00 am",
+        "action": "log"
+      },
+      {
+        "label": "Folic acid 1mg",
+        "detail": "Once daily · 9:00 pm",
+        "action": "check"
+      },
+      {
+        "label": "Fluids",
+        "detail": "1.2 of 2 L",
+        "action": "progress",
+        "pct": 60
+      }
+    ],
+    "next": {
+      "heading": "Next procedure",
+      "title": "Colonoscopy",
+      "badge": "Prep required",
+      "detail": "Tue 18 Nov, 9:30 am · clear liquids from 17 Nov",
+      "linkLabel": "View your 4 prep steps →"
+    }
+  },
+  "checkIn": {
+    "date": "Thursday 6 November",
+    "sample": "Up twice in the night again, really urgent. Some cramping this morning, but less than last week.",
+    "photo": null,
+    "reply": "Noted: two urgent trips overnight and morning cramping. Anything else?",
+    "chips": [
+      "Urgency",
+      "Woke me up",
+      "Cramping",
+      "Mucus",
+      "Tiredness"
+    ]
+  },
+  "severity": {
+    "zonesQuestion": "Where is the cramping?",
+    "zones": [
+      "Lower left",
+      "Lower right",
+      "Around navel",
+      "Upper abdomen",
+      "All over"
+    ],
+    "selected": [
+      "Lower left",
+      "Around navel"
+    ],
+    "photoPrompt": false,
+    "savedAs": "Urgency · Cramping",
+    "savedAt": "Thu 6 Nov, 8:12 am"
+  },
+  "flagged": {
+    "trigger": "Visible blood in a stool photo",
+    "at": "2:14 am",
+    "quote": "…woke me up twice tonight, really urgent, and I think there was blood again.",
+    "detail": "Bristol type 6 · blood flagged from the photo · night-time",
+    "severity": 4
+  },
+  "photo": {
+    "zones": [
+      "Breakfast",
+      "Lunch",
+      "Dinner",
+      "Snack"
+    ],
+    "selected": "Lunch",
+    "overlayTitle": "Checked against your diet sheet",
+    "overlayDetail": "Low-residue · no seeds, skins or raw vegetables",
+    "url": "/samples/meal-lunch.svg"
+  },
+  "compare": {
+    "zones": [
+      "Lunch",
+      "Dinner"
+    ],
+    "selected": "Dinner",
+    "photos": [
+      {
+        "label": "Week 1",
+        "date": "15 Oct · 7:05 pm",
+        "url": "/samples/meal-dinner.svg"
+      },
+      {
+        "label": "Week 4",
+        "date": "5 Nov · 12:40 pm",
+        "url": "/samples/meal-lunch.svg"
+      }
+    ],
+    "from": 4,
+    "to": 2,
+    "badge": "↓ 2 since week 1",
+    "caption": "Your own meal photos, your own ratings, side by side."
+  },
+  "trend": {
+    "title": "Bristol type, from your photos",
+    "subtitle": "Weeks 1–6 · 31 photos · scale 1–7",
+    "data": [
+      {
+        "week": "W1",
+        "avg": 6.4,
+        "blood": 5
+      },
+      {
+        "week": "W2",
+        "avg": 6.1,
+        "blood": 4
+      },
+      {
+        "week": "W3",
+        "avg": 5.6,
+        "blood": 2
+      },
+      {
+        "week": "W4",
+        "avg": 5,
+        "blood": 1
+      },
+      {
+        "week": "W5",
+        "avg": 4.5,
+        "blood": 1
+      },
+      {
+        "week": "W6",
+        "avg": 4.1,
+        "blood": 0
+      }
+    ],
+    "reference": null,
+    "scale": [
+      1,
+      7
+    ],
+    "band": {
+      "from": 3,
+      "to": 4,
+      "label": "Typical range (types 3–4)"
+    },
+    "lineLabel": "Bristol type, weekly average",
+    "blood": {
+      "label": "Blood seen (number = days that week)"
+    },
+    "tabs": [
+      "Stool",
+      "Taper"
+    ],
+    "note": "Each point averages the Bristol type estimated from that week's photos.",
+    "stats": [
+      {
+        "n": "38",
+        "label": "Entries"
+      },
+      {
+        "n": "12",
+        "label": "At night"
+      },
+      {
+        "n": "3",
+        "label": "Flagged"
+      }
+    ],
+    "topLogged": [
+      {
+        "label": "Urgency",
+        "n": 21
+      },
+      {
+        "label": "Woke me up",
+        "n": 12
+      },
+      {
+        "label": "Cramping",
+        "n": 9
+      }
+    ],
+    "exportLabel": "Export weeks 1–6 as PDF"
+  },
+  "stool": {
+    "loggedAt": "Logged 2:14 am",
+    "photoNote": "Photo captured · stored privately",
+    "estimatedFrom": "Estimated from your photo",
+    "bristol": 6,
+    "bristolLabel": "Mushy, loose",
+    "typicalNote": "Types 3–4 are the typical range",
+    "alert": {
+      "title": "Visible blood detected",
+      "note": "Flag sent to clinic on save",
+      "question": "Is this right?"
+    },
+    "chipsQuestion": "Anything else? Tap all that apply",
+    "chips": [
+      "Urgency",
+      "Woke me up",
+      "Cramping",
+      "Mucus"
+    ],
+    "selected": [
+      "Urgency",
+      "Woke me up"
+    ],
+    "save": "Save entry"
+  },
+  "taper": {
+    "title": "Prednisone taper",
+    "subtitle": "40mg → 0 over 8 weeks · step down 5mg weekly",
+    "weeks": [
+      {
+        "week": "W1",
+        "planned": 40,
+        "taken": 40
+      },
+      {
+        "week": "W2",
+        "planned": 35,
+        "taken": 35
+      },
+      {
+        "week": "W3",
+        "planned": 30,
+        "taken": 30
+      },
+      {
+        "week": "W4",
+        "planned": 25,
+        "taken": 25
+      },
+      {
+        "week": "W5",
+        "planned": 20,
+        "taken": null
+      },
+      {
+        "week": "W6",
+        "planned": 15,
+        "taken": null
+      },
+      {
+        "week": "W7",
+        "planned": 10,
+        "taken": null
+      },
+      {
+        "week": "W8",
+        "planned": 5,
+        "taken": null
+      },
+      {
+        "week": "End",
+        "planned": 0,
+        "taken": null
+      }
+    ],
+    "today": {
+      "week": "W4",
+      "label": "today · 25mg"
+    },
+    "missed": {
+      "week": "W2",
+      "dose": 35
+    },
+    "stats": [
+      {
+        "n": "21/22",
+        "label": "Prednisone"
+      },
+      {
+        "n": "22/22",
+        "label": "Folic acid"
+      },
+      {
+        "n": "7 days",
+        "label": "To 20mg"
+      }
+    ],
+    "sideEffectsTitle": "Side effects you logged",
+    "sideEffects": [
+      {
+        "label": "Trouble sleeping",
+        "n": 8
+      },
+      {
+        "label": "Increased appetite",
+        "n": 6
+      },
+      {
+        "label": "Mood changes",
+        "n": 4
+      }
+    ],
+    "note": "Symptoms are shown next to each dose step, so {doctor} can see how you respond as the dose drops."
+  },
+  "plan": {
+    "course": {
+      "label": "IBD flare · prednisone taper",
+      "detail": "Day 22 of 56",
+      "pct": 39
+    },
+    "comingUp": [
+      {
+        "title": "Colonoscopy",
+        "detail": "Tue 18 Nov, 9:30 am · prep reminders start 15 Nov",
+        "badge": "4 prep steps",
+        "link": "procedure"
+      },
+      {
+        "title": "Bloodwork + stool test",
+        "detail": "CBC, CRP + fecal calprotectin · due within 10 days",
+        "note": "Tied to flare monitoring"
+      },
+      {
+        "title": "Next taper step",
+        "detail": "25mg → 20mg · starts Thu 13 Nov",
+        "link": "taper"
+      },
+      {
+        "title": "Follow-up consult",
+        "detail": "Not booked yet",
+        "request": true
+      }
+    ],
+    "done": [
+      {
+        "title": "Flare visit",
+        "detail": "Tue 14 Oct, 11:00 am",
+        "tag": "Summary sent"
+      }
+    ]
+  },
+  "procedure": {
+    "title": "Colonoscopy",
+    "subtitle": "Checking the flare · with sedation",
+    "timeline": [
+      {
+        "n": "15 Nov",
+        "active": true,
+        "done": false
+      },
+      {
+        "n": "2",
+        "active": false,
+        "done": false
+      },
+      {
+        "n": "17 Nov",
+        "active": false,
+        "done": false
+      },
+      {
+        "n": "3",
+        "active": false,
+        "done": false
+      },
+      {
+        "n": "18 Nov",
+        "active": false,
+        "done": false
+      },
+      {
+        "n": "4",
+        "active": false,
+        "done": false
+      },
+      {
+        "n": "—",
+        "active": false,
+        "done": false
+      }
+    ],
+    "when": "Tue 18 Nov · 9:30 am",
+    "room": "Endoscopy suite 2",
+    "prepTitle": "Before you come",
+    "prep": [
+      {
+        "label": "Low-residue diet from Saturday 15 Nov",
+        "detail": "No seeds, skins, nuts or raw vegetables."
+      },
+      {
+        "label": "Clear liquids only from Monday 17 Nov",
+        "detail": "Water, clear broth, apple juice, plain tea — nothing red or purple."
+      },
+      {
+        "label": "Take the prep in two doses",
+        "detail": "Evening dose Monday, morning dose Tuesday, as your prep sheet says."
+      },
+      {
+        "label": "Keep taking your taper dose",
+        "detail": "With a sip of water. Don't stop the steroid unless your doctor says so."
+      }
+    ]
+  },
+  "aftercare": {
+    "title": "Aftercare",
+    "subtitle": "Colonoscopy · after sedation",
+    "released": "Released on its own when you were discharged.",
+    "phases": [
+      {
+        "label": "First few hours",
+        "steps": [
+          "Rest at home; someone should stay with you.",
+          "Bloating and passing gas are normal.",
+          "No driving, alcohol or important decisions today."
+        ]
+      },
+      {
+        "label": "Rest of the day",
+        "steps": [
+          "Start with light, low-residue meals.",
+          "Drink plenty of fluids to replace what the prep took.",
+          "Take your taper dose as planned."
+        ]
+      },
+      {
+        "label": "Next days",
+        "steps": [
+          "Keep logging every stool: it shows how the flare settles.",
+          "Biopsy results arrive in your records.",
+          "Book the follow-up consult if it is not already in your plan."
+        ]
+      }
+    ],
+    "warnings": [
+      "Severe or worsening belly pain",
+      "Heavy bleeding or clots",
+      "You run a fever or feel faint"
+    ]
+  },
+  "medication": {
+    "name": "Prednisone taper",
+    "schedule": "25mg with breakfast · 8:00 am · step 4 of 8 · drops to 20mg Thu 13 Nov",
+    "adherencePct": 95,
+    "because": [
+      {
+        "label": "Take it with breakfast",
+        "detail": "Easier on the stomach with food",
+        "note": "Every morning",
+        "done": true
+      },
+      {
+        "label": "Don't stop suddenly",
+        "detail": "The dose steps down each week so your body can adjust",
+        "note": "Next step 13 Nov",
+        "done": false
+      }
+    ],
+    "tracked": [
+      "Trouble sleeping",
+      "Increased appetite",
+      "Mood changes",
+      "Urgency",
+      "Blood in stool",
+      "Missed a dose"
+    ],
+    "chosenFor": "your prednisone taper"
+  },
+  "records": {
+    "tabs": [
+      "All",
+      "Reports",
+      "Labs",
+      "Prescriptions",
+      "Consent"
+    ],
+    "items": [
+      {
+        "label": "IBD progress report · weeks 1–6",
+        "detail": "Bristol trend, blood flags, taper adherence · 6 Nov",
+        "badge": "New",
+        "link": "trend"
+      },
+      {
+        "label": "Prednisone taper schedule",
+        "detail": "Prescribed by {doctor} · 14 Oct",
+        "badge": null,
+        "link": "taper"
+      },
+      {
+        "label": "CBC + CRP",
+        "detail": "Result received 21 Oct, 8:15 am",
+        "badge": null
+      },
+      {
+        "label": "Colonoscopy prep instructions",
+        "detail": "Released 4 Nov, 1:00 pm",
+        "badge": null,
+        "link": "procedure"
+      },
+      {
+        "label": "Consent · colonoscopy",
+        "detail": "Signed 4 Nov, 1:12 pm",
+        "badge": null
+      }
+    ],
+    "footer": "Timestamped as it is created. Nothing lives in a camera roll or a spreadsheet."
+  },
+  "clinics": {
+    "since": "14 Oct",
+    "courses": [
+      {
+        "label": "IBD flare · prednisone taper",
+        "status": "Day 22 of 56 · Active",
+        "prep": false
+      },
+      {
+        "label": "Colonoscopy",
+        "status": "Tue 18 Nov · Prep due",
+        "prep": true
+      }
+    ]
+  },
+  "console": {
+    "roster": {
+      "alertTitle": "1 flagged entry is waiting for review",
+      "alert": "Maya Patel's stool photo at 2:14 am showed visible blood — it matched your IBD flare watch list.",
+      "title": "148 active IBD courses · 4 clinicians",
+      "patients": [
+        {
+          "initials": "MP",
+          "name": "Maya Patel",
+          "age": 34,
+          "joined": "14 Oct",
+          "course": "IBD flare · prednisone taper — day 22 of 56",
+          "last": "6 hours ago",
+          "status": "flagged",
+          "severity": 4,
+          "isSample": true
+        },
+        {
+          "initials": "JH",
+          "name": "James Holloway",
+          "age": 42,
+          "joined": "2 Jun",
+          "course": "Crohn's · biologic maintenance",
+          "last": "Yesterday",
+          "status": "steady",
+          "severity": 1
+        },
+        {
+          "initials": "AN",
+          "name": "Alicia Nunez",
+          "age": 29,
+          "joined": "9 Sep",
+          "course": "Ulcerative colitis · budesonide taper",
+          "last": "Yesterday",
+          "status": "improving",
+          "severity": 2
+        },
+        {
+          "initials": "TW",
+          "name": "Thomas Whitaker",
+          "age": 57,
+          "joined": "28 Oct",
+          "course": "Ulcerative colitis · new mesalamine course",
+          "last": "2 days ago",
+          "status": "improving",
+          "severity": 3
+        },
+        {
+          "initials": "CL",
+          "name": "Chloe Lam",
+          "age": 38,
+          "joined": "3 Nov",
+          "course": "Colonoscopy prep — day 2 of 4",
+          "last": "3 days ago",
+          "status": "prep",
+          "severity": 1
+        }
+      ]
+    },
+    "patient": {
+      "course": "IBD flare · prednisone taper 40mg → 0 · day 22 of 56 · colonoscopy 18 November",
+      "chartTitle": "Symptoms Maya reported",
+      "chartSubtitle": "Weeks 1–6 · 38 entries · her own 1–5 rating",
+      "badge": "↓ 1.9 since week 1",
+      "data": [
+        {
+          "week": "W1",
+          "val": 4.2,
+          "blood": 5
+        },
+        {
+          "week": "W2",
+          "val": 3.8,
+          "blood": 4
+        },
+        {
+          "week": "W3",
+          "val": 3.1,
+          "blood": 2
+        },
+        {
+          "week": "W4",
+          "val": 2.6,
+          "blood": 1
+        },
+        {
+          "week": "W5",
+          "val": 2.4,
+          "blood": 1
+        },
+        {
+          "week": "W6",
+          "val": 2.3,
+          "blood": 0
+        }
+      ],
+      "legend": {
+        "line": "Symptom rating, weekly average",
+        "blood": "Blood seen (number = days that week)"
+      },
+      "photos": null,
+      "entriesTitle": "What Maya reported",
+      "entriesCount": "38 entries",
+      "entries": [
+        {
+          "severity": 4,
+          "when": "Today, 2:14 am",
+          "flagged": true,
+          "quote": "Woke me up twice tonight, really urgent, and I think there was blood again.",
+          "tags": "Bristol 6 · blood flagged from the photo · Urgency"
+        },
+        {
+          "severity": 2,
+          "when": "Wed 5 Nov, 8:05 am",
+          "flagged": false,
+          "quote": "Better morning. Cramping eased after breakfast.",
+          "tags": "Bristol 4 · Cramping"
+        },
+        {
+          "severity": 3,
+          "when": "Mon 3 Nov, 9:40 pm",
+          "flagged": false,
+          "quote": "Can't sleep on the steroids, otherwise OK today.",
+          "tags": "Trouble sleeping · 25mg step"
+        }
+      ]
+    },
+    "protocol": {
+      "title": "IBD · flare monitoring",
+      "subtitle": "Configured once · applied to 148 patients on this course",
+      "questions": [
+        "Stool frequency",
+        "Urgency",
+        "Blood in stool",
+        "Night-time stools",
+        "Cramping",
+        "Steroid side effects",
+        "Missed a dose"
+      ],
+      "selected": [
+        "Stool frequency",
+        "Urgency",
+        "Blood in stool",
+        "Night-time stools",
+        "Steroid side effects",
+        "Missed a dose"
+      ],
+      "goals": [
+        {
+          "label": "Stool log",
+          "detail": "A photo of every stool · Bristol type estimated"
+        },
+        {
+          "label": "Fluids",
+          "detail": "2 L per day"
+        },
+        {
+          "label": "Low-residue diet",
+          "detail": "While the flare settles"
+        }
+      ],
+      "meds": [
+        {
+          "label": "Prednisone taper",
+          "detail": "40mg → 0 · down 5mg each week"
+        },
+        {
+          "label": "Folic acid",
+          "detail": "1mg once daily"
+        },
+        {
+          "label": "Bowel prep",
+          "detail": "Before the colonoscopy on 18 Nov"
+        }
+      ]
+    },
+    "outcomes": {
+      "subtitle": "IBD flare cohort · 148 patients · rolled up from patient-reported entries",
+      "kpis": [
+        {
+          "n": "148",
+          "label": "Patients on this course",
+          "sub": "+12 since September"
+        },
+        {
+          "n": "96%",
+          "label": "Taper doses taken",
+          "sub": "Reported in the app"
+        },
+        {
+          "n": "Same day",
+          "label": "Blood flags reviewed",
+          "sub": "Median, last 90 days"
+        },
+        {
+          "n": "4",
+          "label": "Flagged entries this week",
+          "sub": "3 reviewed · 1 waiting now",
+          "alert": true
+        }
+      ],
+      "chartSubtitle": "Flare cohort · symptoms 1–5 · 4,210 entries",
+      "cohort": [
+        {
+          "week": "W1",
+          "avg": 3.7
+        },
+        {
+          "week": "W2",
+          "avg": 3.3
+        },
+        {
+          "week": "W3",
+          "avg": 2.8
+        },
+        {
+          "week": "W4",
+          "avg": 2.4
+        },
+        {
+          "week": "W5",
+          "avg": 2.1
+        },
+        {
+          "week": "W6",
+          "avg": 1.9
+        }
+      ],
+      "sideEffectsTitle": "Most reported on the taper",
+      "sideEffects": [
+        {
+          "name": "Trouble sleeping",
+          "pct": 46
+        },
+        {
+          "name": "Increased appetite",
+          "pct": 38
+        },
+        {
+          "name": "Mood changes",
+          "pct": 24
+        },
+        {
+          "name": "Heartburn",
+          "pct": 15
+        },
+        {
+          "name": "Fluid retention",
+          "pct": 11
+        }
+      ],
+      "distribution": [
+        {
+          "level": "1",
+          "pct": 31
+        },
+        {
+          "level": "2",
+          "pct": 34
+        },
+        {
+          "level": "3",
+          "pct": 20
+        },
+        {
+          "level": "4",
+          "pct": 11
+        },
+        {
+          "level": "5",
+          "pct": 4
+        }
+      ],
+      "distributionNote": "Two in three are at level 1 or 2 by week 6."
+    }
+  }
+}

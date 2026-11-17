@@ -1,0 +1,654 @@
+{
+  "id": "gastro_colonoscopy_prep",
+  "specialty": "gastro",
+  "label": "Colonoscopy · prep",
+  "review": {
+    "status": "draft"
+  },
+  "patient": {
+    "first": "Michael",
+    "full": "Michael Turner",
+    "initials": "MT",
+    "email": "michael.turner@example.com"
+  },
+  "onboarding": {
+    "medications": "Split-dose bowel prep",
+    "questionSet": "Colonoscopy · prep",
+    "dailyGoals": "Low-residue diet · 2 L clear fluids",
+    "appointments": "2 booked · procedure 18 Sep"
+  },
+  "today": {
+    "course": "Colonoscopy prep · Day 2 of 4 · Procedure Thu 18 Sep",
+    "checkInPrompt": "How is the prep going today?",
+    "checkInHint": "Talk, type, or show me a photo of your meal.",
+    "items": [
+      {
+        "label": "Low-residue lunch",
+        "detail": "No seeds, skins or whole grains",
+        "action": "check"
+      },
+      {
+        "label": "Stop iron tablets",
+        "detail": "From today until after the procedure",
+        "action": "check"
+      },
+      {
+        "label": "Clear fluids",
+        "detail": "1.2 of 2 L",
+        "action": "progress",
+        "pct": 60
+      }
+    ],
+    "next": {
+      "heading": "Next procedure",
+      "title": "Colonoscopy",
+      "badge": "Prep required",
+      "detail": "Thu 18 Sep, 8:30 am · arrive 7:45 am",
+      "linkLabel": "View your 3 preparation steps →"
+    }
+  },
+  "checkIn": {
+    "sample": "Had the white rice and chicken for lunch. Feeling a bit bloated since this morning and slightly nauseous after breakfast.",
+    "photo": {
+      "caption": "Lunch · 12:40 pm",
+      "url": "/samples/meal-lunch.svg"
+    },
+    "reply": "Noted — bloating and mild nausea, with a photo of your lunch. Anything else?",
+    "chips": [
+      "Bloating",
+      "Nausea",
+      "Cramping",
+      "Dizziness",
+      "Hunger"
+    ]
+  },
+  "severity": {
+    "zonesQuestion": "Where is the discomfort?",
+    "zones": [
+      "Upper abdomen",
+      "Lower abdomen",
+      "Left side",
+      "Right side",
+      "Around navel"
+    ],
+    "selected": [
+      "Lower abdomen",
+      "Around navel"
+    ],
+    "photoPrompt": true,
+    "savedAs": "Bloating · Nausea",
+    "savedAt": "Tue 16 Sep, 12:44 pm"
+  },
+  "flagged": {
+    "trigger": "Vomiting at severity 4",
+    "at": "7:15 pm",
+    "quote": "…threw up about half an hour after the first dose and I'm not sure I can keep the rest down.",
+    "detail": "Marked · Upper abdomen · first prep dose",
+    "severity": 4
+  },
+  "photo": {
+    "zones": [
+      "Breakfast",
+      "Lunch",
+      "Dinner",
+      "Snack"
+    ],
+    "selected": "Lunch",
+    "overlayTitle": "Checked against your diet sheet",
+    "overlayDetail": "Low-residue · no seeds, skins or whole grains",
+    "url": "/samples/meal-lunch.svg"
+  },
+  "compare": {
+    "zones": [
+      "Lunch",
+      "Dinner"
+    ],
+    "selected": "Dinner",
+    "photos": [
+      {
+        "label": "Day 1",
+        "date": "15 Sep · 6:50 pm",
+        "url": "/samples/meal-dinner.svg"
+      },
+      {
+        "label": "Day 2",
+        "date": "16 Sep · 12:40 pm",
+        "url": "/samples/meal-lunch.svg"
+      }
+    ],
+    "from": 3,
+    "to": 2,
+    "badge": "↓ 1 since day 1",
+    "caption": "Your own meal photos, your own ratings, side by side."
+  },
+  "trend": {
+    "title": "Discomfort you reported",
+    "subtitle": "Prep days 1–3 · 9 entries · scale 1–5",
+    "data": [
+      {
+        "week": "D1 am",
+        "avg": 1.5
+      },
+      {
+        "week": "D1 pm",
+        "avg": 2
+      },
+      {
+        "week": "D2 am",
+        "avg": 2.5
+      },
+      {
+        "week": "D2 pm",
+        "avg": 2
+      },
+      {
+        "week": "D3 am",
+        "avg": 2
+      },
+      {
+        "week": "D3 pm",
+        "avg": 4
+      }
+    ],
+    "reference": {
+      "y": 2.5,
+      "label": "Typical for prep"
+    },
+    "stats": [
+      {
+        "n": "9",
+        "label": "Entries"
+      },
+      {
+        "n": "5",
+        "label": "Meal photos"
+      },
+      {
+        "n": "1",
+        "label": "Flagged"
+      }
+    ],
+    "topLogged": [
+      {
+        "label": "Bloating",
+        "n": 6
+      },
+      {
+        "label": "Nausea",
+        "n": 4
+      },
+      {
+        "label": "Vomiting",
+        "n": 1
+      }
+    ],
+    "exportLabel": "Export prep days as PDF"
+  },
+  "plan": {
+    "course": {
+      "label": "Colonoscopy · prep",
+      "detail": "Day 2 of 4",
+      "pct": 50
+    },
+    "comingUp": [
+      {
+        "title": "Colonoscopy",
+        "detail": "Thu 18 Sep, 8:30 am · sedation · bring a driver",
+        "badge": "3 prep steps",
+        "link": "procedure"
+      },
+      {
+        "title": "Bowel prep, dose 1",
+        "detail": "Wed 17 Sep, 6:00 pm · dose 2 at 3:30 am",
+        "note": "Split dose",
+        "link": "medication"
+      },
+      {
+        "title": "Results consult",
+        "detail": "Not booked yet",
+        "request": true
+      }
+    ],
+    "done": [
+      {
+        "title": "Pre-procedure call",
+        "detail": "Mon 15 Sep, 10:00 am · medicines reviewed",
+        "tag": "Aftercare",
+        "link": "aftercare"
+      }
+    ]
+  },
+  "procedure": {
+    "title": "Colonoscopy",
+    "subtitle": "Screening · with sedation",
+    "timeline": [
+      {
+        "n": "15 Sep",
+        "active": false,
+        "done": true
+      },
+      {
+        "n": "2",
+        "active": true,
+        "done": false
+      },
+      {
+        "n": "17 Sep",
+        "active": false,
+        "done": false
+      },
+      {
+        "n": "3",
+        "active": false,
+        "done": false
+      },
+      {
+        "n": "18 Sep",
+        "active": false,
+        "done": false
+      },
+      {
+        "n": "4",
+        "active": false,
+        "done": false
+      },
+      {
+        "n": "—",
+        "active": false,
+        "done": false
+      }
+    ],
+    "when": "Thu 18 Sep · 8:30 am",
+    "room": "Endoscopy suite 2",
+    "prepTitle": "Before you come",
+    "prep": [
+      {
+        "label": "Clear liquids only from Wednesday morning",
+        "detail": "Water, clear broth, apple juice, plain tea — nothing red or purple."
+      },
+      {
+        "label": "Take the prep in two doses",
+        "detail": "Evening dose Wednesday 6:00 pm, morning dose Thursday 3:30 am."
+      },
+      {
+        "label": "Arrange a driver home",
+        "detail": "You'll have sedation: no driving or work for the rest of the day."
+      }
+    ]
+  },
+  "aftercare": {
+    "title": "Aftercare",
+    "subtitle": "Colonoscopy · after sedation",
+    "released": "Released on its own when you were discharged.",
+    "phases": [
+      {
+        "label": "First few hours",
+        "steps": [
+          "Rest at home; someone should stay with you.",
+          "Bloating and passing gas are normal.",
+          "No driving, alcohol or important decisions today."
+        ]
+      },
+      {
+        "label": "Rest of the day",
+        "steps": [
+          "Start with light meals, then eat as usual.",
+          "Drink plenty of fluids to replace what the prep took.",
+          "If a polyp was removed, follow the note in your report."
+        ]
+      },
+      {
+        "label": "Next days",
+        "steps": [
+          "Back to normal activity tomorrow unless told otherwise.",
+          "Your results arrive in your records.",
+          "Book the results consult if it is not already in your plan."
+        ]
+      }
+    ],
+    "warnings": [
+      "Severe or worsening belly pain",
+      "Bleeding more than a few spoonfuls",
+      "You run a fever or feel faint"
+    ]
+  },
+  "medication": {
+    "name": "Split-dose bowel prep",
+    "schedule": "Wed 17 Sep · dose 1 at 6:00 pm · dose 2 at 3:30 am Thursday",
+    "adherencePct": 100,
+    "because": [
+      {
+        "label": "Clear liquids from Wednesday morning",
+        "detail": "No solid food once the prep day starts",
+        "note": "Tomorrow",
+        "done": false
+      },
+      {
+        "label": "Stop iron tablets 5 days before",
+        "detail": "They darken the bowel and hide detail",
+        "note": "Done today",
+        "done": true
+      }
+    ],
+    "tracked": [
+      "Nausea",
+      "Vomiting",
+      "Bloating",
+      "Cramping",
+      "Dizziness",
+      "Prep not clear"
+    ],
+    "chosenFor": "your colonoscopy prep"
+  },
+  "records": {
+    "tabs": [
+      "All",
+      "Consent",
+      "Instructions",
+      "Aftercare",
+      "Reports"
+    ],
+    "items": [
+      {
+        "label": "Prep summary · days 1–3",
+        "detail": "Generated 17 Sep, 8:00 pm · from your entries",
+        "badge": "New",
+        "link": "trend"
+      },
+      {
+        "label": "Prep instructions · split dose",
+        "detail": "Sent 15 Sep, 10:20 am",
+        "badge": null,
+        "link": "medication"
+      },
+      {
+        "label": "Aftercare · colonoscopy",
+        "detail": "Released at discharge",
+        "badge": null,
+        "link": "aftercare"
+      },
+      {
+        "label": "Consent · colonoscopy with sedation",
+        "detail": "Signed 15 Sep, 10:12 am",
+        "badge": null
+      }
+    ]
+  },
+  "clinics": {
+    "since": "15 Sep",
+    "courses": [
+      {
+        "label": "Colonoscopy · prep",
+        "status": "Day 2 of 4 · Active",
+        "prep": false
+      },
+      {
+        "label": "Colonoscopy",
+        "status": "Thu 18 Sep · Prep due",
+        "prep": true
+      }
+    ]
+  },
+  "console": {
+    "roster": {
+      "alertTitle": "1 flagged entry is waiting for review",
+      "alert": "Michael Turner reported vomiting at severity 4 at 7:15 pm — it matched your bowel-prep watch list.",
+      "title": "212 active prep courses · 5 clinicians",
+      "patients": [
+        {
+          "initials": "MT",
+          "name": "Michael Turner",
+          "age": 54,
+          "joined": "15 Sep",
+          "course": "Colonoscopy prep — day 2 of 4",
+          "last": "12 min ago",
+          "status": "flagged",
+          "severity": 4,
+          "isSample": true
+        },
+        {
+          "initials": "LB",
+          "name": "Linda Brooks",
+          "age": 61,
+          "joined": "12 Sep",
+          "course": "Colonoscopy prep — day 3 of 4",
+          "last": "1 hour ago",
+          "status": "prep",
+          "severity": 2
+        },
+        {
+          "initials": "DK",
+          "name": "David Kim",
+          "age": 47,
+          "joined": "3 Aug",
+          "course": "Reflux · PPI course",
+          "last": "Yesterday",
+          "status": "improving",
+          "severity": 2
+        },
+        {
+          "initials": "SP",
+          "name": "Sarah Price",
+          "age": 39,
+          "joined": "21 Jul",
+          "course": "IBS · low-FODMAP diet",
+          "last": "Yesterday",
+          "status": "steady",
+          "severity": 2
+        },
+        {
+          "initials": "RG",
+          "name": "Robert Green",
+          "age": 66,
+          "joined": "9 Sep",
+          "course": "Upper endoscopy — prep",
+          "last": "3 days ago",
+          "status": "prep",
+          "severity": 1
+        }
+      ]
+    },
+    "patient": {
+      "course": "Colonoscopy prep · split dose · day 2 of 4 · procedure 18 September",
+      "chartTitle": "Discomfort Michael reported",
+      "chartSubtitle": "Prep days 1–3 · 9 entries · his own 1–5 rating",
+      "badge": "↑ 2.0 after dose 1",
+      "data": [
+        {
+          "week": "Day 1",
+          "val": 1.8
+        },
+        {
+          "week": "Day 2 am",
+          "val": 2.5
+        },
+        {
+          "week": "Day 2 pm",
+          "val": 2
+        },
+        {
+          "week": "Day 3 am",
+          "val": 2
+        },
+        {
+          "week": "Dose 1",
+          "val": 4
+        }
+      ],
+      "photos": null,
+      "entriesTitle": "What he reported",
+      "entriesCount": "9 entries",
+      "entries": [
+        {
+          "severity": 4,
+          "when": "Today, 7:15 pm",
+          "flagged": true,
+          "quote": "Threw up about half an hour after the first dose. Not sure I can keep the rest down.",
+          "tags": "Vomiting · Nausea · upper abdomen"
+        },
+        {
+          "severity": 2,
+          "when": "Today, 12:44 pm",
+          "flagged": false,
+          "quote": "Bit bloated after lunch, otherwise fine.",
+          "tags": "Bloating · 1 meal photo"
+        },
+        {
+          "severity": 2,
+          "when": "Mon 15 Sep, 6:50 pm",
+          "flagged": false,
+          "quote": "First low-residue dinner done. Hungry but OK.",
+          "tags": "Hunger · 1 meal photo"
+        }
+      ]
+    },
+    "protocol": {
+      "title": "Colonoscopy · prep",
+      "subtitle": "Configured once · applied to 212 patients on this course",
+      "questions": [
+        "Nausea",
+        "Vomiting",
+        "Bloating",
+        "Cramping",
+        "Dizziness",
+        "Prep not clear",
+        "Missed a dose"
+      ],
+      "selected": [
+        "Nausea",
+        "Vomiting",
+        "Bloating",
+        "Dizziness",
+        "Prep not clear",
+        "Missed a dose"
+      ],
+      "goals": [
+        {
+          "label": "Clear fluids",
+          "detail": "2 L per day on prep day"
+        },
+        {
+          "label": "Low-residue diet",
+          "detail": "Meal photo at each meal, days 1–3"
+        },
+        {
+          "label": "Prep check-in",
+          "detail": "After each dose"
+        }
+      ],
+      "meds": [
+        {
+          "label": "Split-dose bowel prep",
+          "detail": "Evening before + early morning of the procedure"
+        },
+        {
+          "label": "Iron tablets",
+          "detail": "Paused 5 days before"
+        },
+        {
+          "label": "Blood thinners",
+          "detail": "Only as your doctor instructed — confirmed at the pre-procedure call"
+        }
+      ]
+    },
+    "outcomes": {
+      "subtitle": "Colonoscopy prep cohort · 212 patients · rolled up from patient-reported entries",
+      "kpis": [
+        {
+          "n": "212",
+          "label": "Patients on this course",
+          "sub": "+31 since August"
+        },
+        {
+          "n": "94%",
+          "label": "Took both prep doses",
+          "sub": "Reported in the app"
+        },
+        {
+          "n": "3%",
+          "label": "Procedures cancelled for poor prep",
+          "sub": "Last 90 days"
+        },
+        {
+          "n": "5",
+          "label": "Flagged entries this week",
+          "sub": "4 reviewed · 1 waiting now",
+          "alert": true
+        }
+      ],
+      "chartSubtitle": "Prep cohort · scale 1–5 · 1,880 entries",
+      "cohort": [
+        {
+          "week": "D1",
+          "avg": 1.6
+        },
+        {
+          "week": "D2",
+          "avg": 1.9
+        },
+        {
+          "week": "D3",
+          "avg": 2.2
+        },
+        {
+          "week": "Dose 1",
+          "avg": 2.9
+        },
+        {
+          "week": "Dose 2",
+          "avg": 2.7
+        },
+        {
+          "week": "Day 0",
+          "avg": 1.4
+        }
+      ],
+      "sideEffectsTitle": "Most reported during prep",
+      "sideEffects": [
+        {
+          "name": "Bloating",
+          "pct": 64
+        },
+        {
+          "name": "Nausea",
+          "pct": 41
+        },
+        {
+          "name": "Cramping",
+          "pct": 33
+        },
+        {
+          "name": "Dizziness",
+          "pct": 9
+        },
+        {
+          "name": "Vomiting",
+          "pct": 6
+        }
+      ],
+      "distribution": [
+        {
+          "level": "1",
+          "pct": 38
+        },
+        {
+          "level": "2",
+          "pct": 33
+        },
+        {
+          "level": "3",
+          "pct": 18
+        },
+        {
+          "level": "4",
+          "pct": 8
+        },
+        {
+          "level": "5",
+          "pct": 3
+        }
+      ],
+      "distributionNote": "Seven in ten report level 1 or 2 through the whole prep."
+    }
+  }
+}

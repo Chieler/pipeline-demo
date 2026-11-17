@@ -1,0 +1,2218 @@
+[
+  {
+    "slot_id": "SLOT-SYN-PT-101-D01",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 1,
+    "date": "2026-10-05",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 0,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Solids",
+      "weight_lb": 178.0,
+      "is_chemo_day": false,
+      "active_symptoms_present": [],
+      "active_symptoms_absent": [
+        "nausea",
+        "pain"
+      ]
+    },
+    "latent_medications": [
+      [
+        "Salt and Soda Oral Rinse",
+        "1 rinse",
+        "taken",
+        "Routine aftercare"
+      ]
+    ]
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-101-D02",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 2,
+    "date": "2026-10-06",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 0,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Solids",
+      "weight_lb": 177.8,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "fatigue"
+      ],
+      "active_symptoms_absent": [
+        "nausea"
+      ]
+    },
+    "latent_medications": [
+      [
+        "Salt and Soda Oral Rinse",
+        "1 rinse",
+        "taken",
+        "Routine aftercare"
+      ]
+    ]
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-101-D03",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 3,
+    "date": "2026-10-07",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 0,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Solids",
+      "weight_lb": 177.6,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "mucositis"
+      ],
+      "active_symptoms_absent": [
+        "nausea"
+      ]
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-101-D04",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 4,
+    "date": "2026-10-08",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 3,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Soft food",
+      "weight_lb": 177.2,
+      "is_chemo_day": true,
+      "active_symptoms_present": [
+        "nausea"
+      ],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": [
+      [
+        "Cisplatin",
+        "40mg/m2",
+        "taken",
+        "Infusion completed in clinic"
+      ],
+      [
+        "Dexamethasone",
+        "4mg",
+        "taken",
+        "Pre-medication and evening dose"
+      ],
+      [
+        "Ondansetron",
+        "8mg",
+        "taken",
+        "Taken for acute post-infusion nausea"
+      ]
+    ]
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-101-D05",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 5,
+    "date": "2026-10-09",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 5,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Soft food",
+      "weight_lb": 176.5,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "nausea"
+      ],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": [
+      [
+        "Dexamethasone",
+        "4mg",
+        "taken",
+        "Day 1 post-chemo"
+      ],
+      [
+        "Ondansetron",
+        "8mg",
+        "taken",
+        "Morning dose for delayed nausea"
+      ]
+    ]
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-101-D06",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 6,
+    "date": "2026-10-10",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 6,
+      "vomiting_episodes": 1,
+      "swallowing_capability": "Liquids only",
+      "weight_lb": 175.9,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "vomiting",
+        "nausea",
+        "mucositis"
+      ],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": [
+      [
+        "Dexamethasone",
+        "4mg",
+        "taken",
+        "Day 2 post-chemo"
+      ],
+      [
+        "Ondansetron",
+        "8mg",
+        "taken",
+        "Taken following emesis episode"
+      ]
+    ]
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-101-D07",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 7,
+    "date": "2026-10-11",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 3,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Soft food",
+      "weight_lb": 176.0,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "nausea",
+        "fatigue"
+      ],
+      "active_symptoms_absent": [
+        "vomiting"
+      ]
+    },
+    "latent_medications": [
+      [
+        "Ondansetron",
+        "8mg",
+        "taken",
+        "PRN dose midday"
+      ]
+    ]
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-101-D08",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 8,
+    "date": "2026-10-12",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 1,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Soft food",
+      "weight_lb": 176.4,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "nausea",
+        "dry_mouth",
+        "mucositis"
+      ],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": [
+      [
+        "Salt and Soda Oral Rinse",
+        "1 rinse",
+        "taken",
+        "4 rinses completed"
+      ]
+    ]
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-101-D09",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 9,
+    "date": "2026-10-13",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 0,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Soft food",
+      "weight_lb": 176.5,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "fatigue",
+        "mucositis"
+      ],
+      "active_symptoms_absent": [
+        "nausea",
+        "vomiting"
+      ]
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-101-D10",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 10,
+    "date": "2026-10-14",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 0,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Soft food",
+      "weight_lb": 176.2,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "pain"
+      ],
+      "active_symptoms_absent": [
+        "nausea"
+      ]
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-101-D11",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 11,
+    "date": "2026-10-15",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 4,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Soft food",
+      "weight_lb": 175.5,
+      "is_chemo_day": true,
+      "active_symptoms_present": [
+        "nausea",
+        "headache"
+      ],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": [
+      [
+        "Cisplatin",
+        "40mg/m2",
+        "taken",
+        "Second infusion"
+      ],
+      [
+        "Dexamethasone",
+        "4mg",
+        "taken",
+        "Chemo day steroid"
+      ],
+      [
+        "Ondansetron",
+        "8mg",
+        "taken",
+        "Post-infusion dose"
+      ]
+    ]
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-101-D12",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 12,
+    "date": "2026-10-16",
+    "is_submitted": false,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 7,
+      "vomiting_episodes": 2,
+      "swallowing_capability": "Liquids only",
+      "weight_lb": 174.5,
+      "is_chemo_day": false,
+      "active_symptoms_present": [],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-101-D13",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 13,
+    "date": "2026-10-17",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 4,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Liquids only",
+      "weight_lb": 174.2,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "vomiting",
+        "nausea",
+        "dysphagia"
+      ],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": [
+      [
+        "Dexamethasone",
+        "4mg",
+        "taken",
+        "Post-chemo day 2"
+      ],
+      [
+        "Ondansetron",
+        "8mg",
+        "taken",
+        "Taken twice today"
+      ]
+    ]
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-101-D14",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 14,
+    "date": "2026-10-18",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 5,
+      "vomiting_episodes": 2,
+      "swallowing_capability": "Liquids only",
+      "weight_lb": 173.8,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "nausea",
+        "vomiting",
+        "dizziness"
+      ],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": [
+      [
+        "Ondansetron",
+        "8mg",
+        "taken",
+        "Morning dose regurgitated, retaken 1 hr later"
+      ]
+    ]
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-101-D15",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 15,
+    "date": "2026-10-19",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 2,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Soft food",
+      "weight_lb": 173.5,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "nausea",
+        "mucositis",
+        "pain"
+      ],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": [
+      [
+        "Salt and Soda Oral Rinse",
+        "1 rinse",
+        "taken",
+        "Rinsing 5 times today"
+      ]
+    ]
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-101-D16",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 16,
+    "date": "2026-10-20",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 1,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Soft food",
+      "weight_lb": 173.0,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "breathlessness"
+      ],
+      "active_symptoms_absent": [
+        "nausea"
+      ]
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-101-D17",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 17,
+    "date": "2026-10-21",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 2,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Soft food",
+      "weight_lb": 172.6,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "nausea",
+        "mucositis"
+      ],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-101-D18",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 18,
+    "date": "2026-10-22",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 7,
+      "vomiting_episodes": 3,
+      "swallowing_capability": "Liquids only",
+      "weight_lb": 172.0,
+      "is_chemo_day": true,
+      "active_symptoms_present": [
+        "vomiting",
+        "nausea"
+      ],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": [
+      [
+        "Cisplatin",
+        "40mg/m2",
+        "taken",
+        "Third infusion completed"
+      ],
+      [
+        "Dexamethasone",
+        "4mg",
+        "taken",
+        "Chemo premedication"
+      ],
+      [
+        "Ondansetron",
+        "16mg",
+        "taken",
+        "8mg at 3:30pm and 8mg at 8:00pm"
+      ]
+    ]
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-101-D19",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 19,
+    "date": "2026-10-23",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 6,
+      "vomiting_episodes": 2,
+      "swallowing_capability": "Liquids only",
+      "weight_lb": 171.2,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "vomiting",
+        "headache",
+        "fatigue"
+      ],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": [
+      [
+        "Dexamethasone",
+        "4mg",
+        "taken",
+        "Post-chemo Day 1"
+      ],
+      [
+        "Ondansetron",
+        "8mg",
+        "taken",
+        "Morning and afternoon doses"
+      ]
+    ]
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-101-D20",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 20,
+    "date": "2026-10-24",
+    "is_submitted": false,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 5,
+      "vomiting_episodes": 1,
+      "swallowing_capability": "Liquids only",
+      "weight_lb": 170.8,
+      "is_chemo_day": false,
+      "active_symptoms_present": [],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-101-D21",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 21,
+    "date": "2026-10-25",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 3,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Liquids only",
+      "weight_lb": 170.5,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "nausea",
+        "pain"
+      ],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": [
+      [
+        "Salt and Soda Oral Rinse",
+        "1 rinse",
+        "taken",
+        "Oral hygiene maintained"
+      ]
+    ]
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-101-D22",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 22,
+    "date": "2026-10-26",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 2,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Soft food",
+      "weight_lb": 170.8,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "nausea",
+        "mucositis"
+      ],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-101-D23",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 23,
+    "date": "2026-10-27",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 1,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Soft food",
+      "weight_lb": 170.4,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "dizziness",
+        "nausea"
+      ],
+      "active_symptoms_absent": [
+        "vomiting"
+      ]
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-101-D24",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 24,
+    "date": "2026-10-28",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 2,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Soft food",
+      "weight_lb": 170.2,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "pain"
+      ],
+      "active_symptoms_absent": [
+        "vomiting"
+      ]
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-101-D25",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 25,
+    "date": "2026-10-29",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 5,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Liquids only",
+      "weight_lb": 169.8,
+      "is_chemo_day": true,
+      "active_symptoms_present": [
+        "nausea"
+      ],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": [
+      [
+        "Cisplatin",
+        "40mg/m2",
+        "taken",
+        "Fourth infusion"
+      ],
+      [
+        "Dexamethasone",
+        "4mg",
+        "taken",
+        "Chemo day dose"
+      ],
+      [
+        "Ondansetron",
+        "8mg",
+        "taken",
+        "Morning premedication"
+      ]
+    ]
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-101-D26",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 26,
+    "date": "2026-10-30",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 6,
+      "vomiting_episodes": 3,
+      "swallowing_capability": "Liquids only",
+      "weight_lb": 169.2,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "vomiting",
+        "nausea"
+      ],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": [
+      [
+        "Dexamethasone",
+        "4mg",
+        "taken",
+        "Post-chemo Day 1"
+      ],
+      [
+        "Ondansetron",
+        "8mg",
+        "taken",
+        "Morning dose"
+      ]
+    ]
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-101-D27",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 27,
+    "date": "2026-10-31",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 4,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Liquids only",
+      "weight_lb": 169.0,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "nausea",
+        "pain",
+        "fatigue"
+      ],
+      "active_symptoms_absent": [
+        "vomiting"
+      ]
+    },
+    "latent_medications": [
+      [
+        "Dexamethasone",
+        "4mg",
+        "taken",
+        "Post-chemo Day 2"
+      ]
+    ]
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-101-D28",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 28,
+    "date": "2026-11-01",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 2,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Soft food",
+      "weight_lb": 168.8,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "nausea",
+        "weight"
+      ],
+      "active_symptoms_absent": [
+        "vomiting"
+      ]
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-102-D01",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 1,
+    "date": "2026-10-05",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 3,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Solids",
+      "weight_lb": 142.0,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "nausea"
+      ],
+      "active_symptoms_absent": [
+        "vomiting"
+      ]
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-102-D02",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 2,
+    "date": "2026-10-06",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 6,
+      "vomiting_episodes": 2,
+      "swallowing_capability": "Soft food",
+      "weight_lb": 141.2,
+      "is_chemo_day": true,
+      "active_symptoms_present": [
+        "vomiting"
+      ],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": [
+      [
+        "Cisplatin",
+        "40mg/m2",
+        "taken",
+        "First infusion"
+      ],
+      [
+        "Prochlorperazine",
+        "10mg",
+        "taken",
+        "Post-discharge dose"
+      ]
+    ]
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-102-D03",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 3,
+    "date": "2026-10-07",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 7,
+      "vomiting_episodes": 3,
+      "swallowing_capability": "Liquids only",
+      "weight_lb": 140.5,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "nausea",
+        "vomiting",
+        "fatigue"
+      ],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": [
+      [
+        "Prochlorperazine",
+        "10mg",
+        "taken",
+        "Three doses taken"
+      ]
+    ]
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-102-D04",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 4,
+    "date": "2026-10-08",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 2,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Soft food",
+      "weight_lb": 140.8,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "nausea"
+      ],
+      "active_symptoms_absent": [
+        "vomiting"
+      ]
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-102-D05",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 5,
+    "date": "2026-10-09",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 2,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Soft food",
+      "weight_lb": 140.6,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "dizziness"
+      ],
+      "active_symptoms_absent": [
+        "nausea"
+      ]
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-102-D06",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 6,
+    "date": "2026-10-10",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 1,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Soft food",
+      "weight_lb": 140.2,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "dry_mouth",
+        "mucositis"
+      ],
+      "active_symptoms_absent": [
+        "nausea",
+        "vomiting"
+      ]
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-102-D07",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 7,
+    "date": "2026-10-11",
+    "is_submitted": false,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 4,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Soft food",
+      "weight_lb": 139.8,
+      "is_chemo_day": false,
+      "active_symptoms_present": [],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-102-D08",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 8,
+    "date": "2026-10-12",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 5,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Soft food",
+      "weight_lb": 139.5,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "nausea"
+      ],
+      "active_symptoms_absent": [
+        "vomiting"
+      ]
+    },
+    "latent_medications": [
+      [
+        "Lorazepam",
+        "0.5mg",
+        "taken",
+        "Anticipatory nausea PRN"
+      ]
+    ]
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-102-D09",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 9,
+    "date": "2026-10-13",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 8,
+      "vomiting_episodes": 4,
+      "swallowing_capability": "Liquids only",
+      "weight_lb": 138.8,
+      "is_chemo_day": true,
+      "active_symptoms_present": [
+        "vomiting",
+        "nausea"
+      ],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": [
+      [
+        "Cisplatin",
+        "40mg/m2",
+        "taken",
+        "Infusion #2"
+      ],
+      [
+        "Prochlorperazine",
+        "10mg",
+        "taken",
+        "Ineffective for breakthrough emesis"
+      ]
+    ]
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-102-D10",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 10,
+    "date": "2026-10-14",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 7,
+      "vomiting_episodes": 3,
+      "swallowing_capability": "Liquids only",
+      "weight_lb": 138.0,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "vomiting",
+        "dizziness"
+      ],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": [
+      [
+        "Prochlorperazine",
+        "10mg",
+        "taken",
+        "Every 8 hours"
+      ]
+    ]
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-102-D11",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 11,
+    "date": "2026-10-15",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 5,
+      "vomiting_episodes": 1,
+      "swallowing_capability": "Liquids only",
+      "weight_lb": 137.5,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "mucositis",
+        "dysphagia",
+        "pain"
+      ],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": [
+      [
+        "Magic Mouthwash",
+        "10mL",
+        "taken",
+        "Before attempting liquids"
+      ]
+    ]
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-102-D12",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 12,
+    "date": "2026-10-16",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 4,
+      "vomiting_episodes": 1,
+      "swallowing_capability": "Liquids only",
+      "weight_lb": 137.0,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "headache",
+        "vomiting",
+        "nausea"
+      ],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-102-D13",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 13,
+    "date": "2026-10-17",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 3,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Soft food",
+      "weight_lb": 136.8,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "nausea"
+      ],
+      "active_symptoms_absent": [
+        "vomiting"
+      ]
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-102-D14",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 14,
+    "date": "2026-10-18",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 2,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Soft food",
+      "weight_lb": 136.5,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "nausea"
+      ],
+      "active_symptoms_absent": [
+        "vomiting"
+      ]
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-102-D15",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 15,
+    "date": "2026-10-19",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 4,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Soft food",
+      "weight_lb": 136.2,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "nausea",
+        "dry_mouth"
+      ],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": [
+      [
+        "Magic Mouthwash",
+        "10mL",
+        "missed",
+        "Evening dose missed due to falling asleep"
+      ]
+    ]
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-102-D16",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 16,
+    "date": "2026-10-20",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 8,
+      "vomiting_episodes": 3,
+      "swallowing_capability": "Liquids only",
+      "weight_lb": 135.5,
+      "is_chemo_day": true,
+      "active_symptoms_present": [
+        "vomiting",
+        "syncope",
+        "nausea"
+      ],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": [
+      [
+        "Cisplatin",
+        "40mg/m2",
+        "taken",
+        "Third infusion"
+      ]
+    ]
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-102-D17",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 17,
+    "date": "2026-10-21",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 5,
+      "vomiting_episodes": 1,
+      "swallowing_capability": "Liquids only",
+      "weight_lb": 135.2,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "vomiting"
+      ],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": [
+      [
+        "Aprepitant",
+        "125mg",
+        "started",
+        "New NK1 receptor antagonist started for refractory CINV"
+      ],
+      [
+        "Ondansetron",
+        "8mg",
+        "started",
+        "New 5-HT3 antagonist added"
+      ],
+      [
+        "Prochlorperazine",
+        "10mg",
+        "discontinued",
+        "Discontinued due to lack of efficacy"
+      ]
+    ]
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-102-D18",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 18,
+    "date": "2026-10-22",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 3,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Soft food",
+      "weight_lb": 135.0,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "nausea"
+      ],
+      "active_symptoms_absent": [
+        "vomiting"
+      ]
+    },
+    "latent_medications": [
+      [
+        "Aprepitant",
+        "80mg",
+        "taken",
+        "Day 2 of 3-day aprepitant pack"
+      ],
+      [
+        "Ondansetron",
+        "8mg",
+        "taken",
+        "Morning and evening doses"
+      ]
+    ]
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-102-D19",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 19,
+    "date": "2026-10-23",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 4,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Soft food",
+      "weight_lb": 134.8,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "nausea"
+      ],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": [
+      [
+        "Aprepitant",
+        "80mg",
+        "taken",
+        "Day 3 of pack completed"
+      ],
+      [
+        "Ondansetron",
+        "8mg",
+        "missed",
+        "Midday dose missed due to 4-hour nap"
+      ]
+    ]
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-102-D20",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 20,
+    "date": "2026-10-24",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 2,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Soft food",
+      "weight_lb": 134.8,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "nausea",
+        "mucositis"
+      ],
+      "active_symptoms_absent": [
+        "vomiting"
+      ]
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-102-D21",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 21,
+    "date": "2026-10-25",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 2,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Soft food",
+      "weight_lb": 134.6,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "weight",
+        "dysphagia"
+      ],
+      "active_symptoms_absent": [
+        "vomiting"
+      ]
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-102-D22",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 22,
+    "date": "2026-10-26",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 3,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Liquids only",
+      "weight_lb": 134.4,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "pain",
+        "nausea"
+      ],
+      "active_symptoms_absent": [
+        "vomiting"
+      ]
+    },
+    "latent_medications": [
+      [
+        "Ondansetron",
+        "8mg",
+        "taken",
+        "Morning dose"
+      ]
+    ]
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-102-D23",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 23,
+    "date": "2026-10-27",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 5,
+      "vomiting_episodes": 1,
+      "swallowing_capability": "Liquids only",
+      "weight_lb": 134.2,
+      "is_chemo_day": true,
+      "active_symptoms_present": [
+        "vomiting",
+        "weight"
+      ],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": [
+      [
+        "Cisplatin",
+        "40mg/m2",
+        "taken",
+        "Infusion #4"
+      ],
+      [
+        "Aprepitant",
+        "125mg",
+        "taken",
+        "Day 1 dose before chemo"
+      ],
+      [
+        "Ondansetron",
+        "8mg",
+        "taken",
+        "Routine antiemetic"
+      ]
+    ]
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-102-D24",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 24,
+    "date": "2026-10-28",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 4,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Liquids only",
+      "weight_lb": 134.0,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "nausea",
+        "dizziness"
+      ],
+      "active_symptoms_absent": [
+        "vomiting"
+      ]
+    },
+    "latent_medications": [
+      [
+        "Aprepitant",
+        "80mg",
+        "taken",
+        "Day 2 dose"
+      ]
+    ]
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-102-D25",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 25,
+    "date": "2026-10-29",
+    "is_submitted": false,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 4,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Liquids only",
+      "weight_lb": 133.8,
+      "is_chemo_day": false,
+      "active_symptoms_present": [],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-102-D26",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 26,
+    "date": "2026-10-30",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 3,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Liquids only",
+      "weight_lb": 133.7,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "nausea",
+        "pain"
+      ],
+      "active_symptoms_absent": [
+        "vomiting"
+      ]
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-102-D27",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 27,
+    "date": "2026-10-31",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 2,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Liquids only",
+      "weight_lb": 133.5,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "nausea"
+      ],
+      "active_symptoms_absent": [
+        "vomiting"
+      ]
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-102-D28",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 28,
+    "date": "2026-11-01",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 2,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Liquids only",
+      "weight_lb": 133.6,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "weight",
+        "pain"
+      ],
+      "active_symptoms_absent": [
+        "vomiting"
+      ]
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-103-D01",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 1,
+    "date": "2026-10-05",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 0,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Solids",
+      "weight_lb": 195.0,
+      "is_chemo_day": false,
+      "active_symptoms_present": [],
+      "active_symptoms_absent": [
+        "nausea",
+        "pain"
+      ]
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-103-D02",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 2,
+    "date": "2026-10-06",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 0,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Solids",
+      "weight_lb": 194.8,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "dry_mouth"
+      ],
+      "active_symptoms_absent": [
+        "nausea"
+      ]
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-103-D03",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 3,
+    "date": "2026-10-07",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 4,
+      "vomiting_episodes": 1,
+      "swallowing_capability": "Soft food",
+      "weight_lb": 194.2,
+      "is_chemo_day": true,
+      "active_symptoms_present": [
+        "nausea",
+        "vomiting"
+      ],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": [
+      [
+        "Cisplatin",
+        "40mg/m2",
+        "taken",
+        "First infusion completed"
+      ],
+      [
+        "Ondansetron ODT",
+        "8mg",
+        "taken",
+        "Post-chemo emesis"
+      ]
+    ]
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-103-D04",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 4,
+    "date": "2026-10-08",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 5,
+      "vomiting_episodes": 2,
+      "swallowing_capability": "Soft food",
+      "weight_lb": 193.5,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "nausea",
+        "vomiting"
+      ],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": [
+      [
+        "Ondansetron ODT",
+        "8mg",
+        "taken",
+        "Morning dose"
+      ]
+    ]
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-103-D05",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 5,
+    "date": "2026-10-09",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 3,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Soft food",
+      "weight_lb": 193.0,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "singultus",
+        "nausea"
+      ],
+      "active_symptoms_absent": [
+        "vomiting"
+      ]
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-103-D06",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 6,
+    "date": "2026-10-10",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 2,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Soft food",
+      "weight_lb": 192.6,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "singultus",
+        "nausea"
+      ],
+      "active_symptoms_absent": [
+        "vomiting"
+      ]
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-103-D07",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 7,
+    "date": "2026-10-11",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 1,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Soft food",
+      "weight_lb": 192.4,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "fatigue"
+      ],
+      "active_symptoms_absent": [
+        "nausea",
+        "vomiting"
+      ]
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-103-D08",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 8,
+    "date": "2026-10-12",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 0,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Soft food",
+      "weight_lb": 192.0,
+      "is_chemo_day": false,
+      "active_symptoms_present": [],
+      "active_symptoms_absent": [
+        "nausea"
+      ]
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-103-D09",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 9,
+    "date": "2026-10-13",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 1,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Soft food",
+      "weight_lb": 191.5,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "pain"
+      ],
+      "active_symptoms_absent": [
+        "nausea"
+      ]
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-103-D10",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 10,
+    "date": "2026-10-14",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 6,
+      "vomiting_episodes": 2,
+      "swallowing_capability": "Soft food",
+      "weight_lb": 190.8,
+      "is_chemo_day": true,
+      "active_symptoms_present": [
+        "vomiting",
+        "nausea"
+      ],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": [
+      [
+        "Cisplatin",
+        "40mg/m2",
+        "taken",
+        "Second infusion"
+      ],
+      [
+        "Ondansetron ODT",
+        "8mg",
+        "taken",
+        "Post-emesis dose"
+      ]
+    ]
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-103-D11",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 11,
+    "date": "2026-10-15",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 5,
+      "vomiting_episodes": 1,
+      "swallowing_capability": "Soft food",
+      "weight_lb": 190.2,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "tinnitus",
+        "vomiting",
+        "nausea"
+      ],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": [
+      [
+        "Ondansetron ODT",
+        "8mg",
+        "taken",
+        "Morning dose"
+      ]
+    ]
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-103-D12",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 12,
+    "date": "2026-10-16",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 4,
+      "vomiting_episodes": 1,
+      "swallowing_capability": "Liquids only",
+      "weight_lb": 189.6,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "tinnitus",
+        "nausea",
+        "vomiting"
+      ],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-103-D13",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 13,
+    "date": "2026-10-17",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 5,
+      "vomiting_episodes": 3,
+      "swallowing_capability": "Liquids only",
+      "weight_lb": 189.0,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "vomiting",
+        "tinnitus"
+      ],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-103-D14",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 14,
+    "date": "2026-10-18",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 3,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Soft food",
+      "weight_lb": 188.5,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "nausea",
+        "tinnitus"
+      ],
+      "active_symptoms_absent": [
+        "vomiting"
+      ]
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-103-D15",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 15,
+    "date": "2026-10-19",
+    "is_submitted": false,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 4,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Soft food",
+      "weight_lb": 188.0,
+      "is_chemo_day": false,
+      "active_symptoms_present": [],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-103-D16",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 16,
+    "date": "2026-10-20",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 3,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Soft food",
+      "weight_lb": 187.5,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "nausea",
+        "tinnitus"
+      ],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-103-D17",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 17,
+    "date": "2026-10-21",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 7,
+      "vomiting_episodes": 3,
+      "swallowing_capability": "Liquids only",
+      "weight_lb": 187.0,
+      "is_chemo_day": true,
+      "active_symptoms_present": [
+        "vomiting",
+        "nausea"
+      ],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": [
+      [
+        "Cisplatin",
+        "40mg/m2",
+        "taken",
+        "Third infusion"
+      ],
+      [
+        "Metoclopramide",
+        "10mg",
+        "taken",
+        "Taken for delayed gastric emptying"
+      ]
+    ]
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-103-D18",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 18,
+    "date": "2026-10-22",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 6,
+      "vomiting_episodes": 2,
+      "swallowing_capability": "Liquids only",
+      "weight_lb": 186.2,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "tinnitus",
+        "vomiting",
+        "breathlessness"
+      ],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-103-D19",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 19,
+    "date": "2026-10-23",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 5,
+      "vomiting_episodes": 1,
+      "swallowing_capability": "Liquids only",
+      "weight_lb": 185.8,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "syncope",
+        "vomiting",
+        "nausea"
+      ],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-103-D20",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 20,
+    "date": "2026-10-24",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 4,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Liquids only",
+      "weight_lb": 185.5,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "nausea"
+      ],
+      "active_symptoms_absent": [
+        "vomiting"
+      ]
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-103-D21",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 21,
+    "date": "2026-10-25",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 3,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Liquids only",
+      "weight_lb": 185.0,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "dysphagia",
+        "pain"
+      ],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-103-D22",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 22,
+    "date": "2026-10-26",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 2,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Liquids only",
+      "weight_lb": 184.5,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "peripheral_neuropathy",
+        "nausea"
+      ],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-103-D23",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 23,
+    "date": "2026-10-27",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 2,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Liquids only",
+      "weight_lb": 184.2,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "peripheral_neuropathy",
+        "tinnitus"
+      ],
+      "active_symptoms_absent": [
+        "vomiting"
+      ]
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-103-D24",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 24,
+    "date": "2026-10-28",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 6,
+      "vomiting_episodes": 2,
+      "swallowing_capability": "Liquids only",
+      "weight_lb": 183.8,
+      "is_chemo_day": true,
+      "active_symptoms_present": [
+        "tinnitus",
+        "peripheral_neuropathy",
+        "vomiting",
+        "nausea"
+      ],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": [
+      [
+        "Cisplatin",
+        "40mg/m2",
+        "taken",
+        "Fourth infusion"
+      ]
+    ]
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-103-D25",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 25,
+    "date": "2026-10-29",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 5,
+      "vomiting_episodes": 1,
+      "swallowing_capability": "Liquids only",
+      "weight_lb": 183.4,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "singultus",
+        "tinnitus",
+        "vomiting",
+        "nausea"
+      ],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-103-D26",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 26,
+    "date": "2026-10-30",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 6,
+      "vomiting_episodes": 3,
+      "swallowing_capability": "Liquids only",
+      "weight_lb": 183.0,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "vomiting",
+        "nausea"
+      ],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-103-D27",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 27,
+    "date": "2026-10-31",
+    "is_submitted": false,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 4,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Liquids only",
+      "weight_lb": 182.6,
+      "is_chemo_day": false,
+      "active_symptoms_present": [],
+      "active_symptoms_absent": []
+    },
+    "latent_medications": []
+  },
+  {
+    "slot_id": "SLOT-SYN-PT-103-D28",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 28,
+    "date": "2026-11-01",
+    "is_submitted": true,
+    "latent_clinical_state": {
+      "nausea_severity_nrs": 2,
+      "vomiting_episodes": 0,
+      "swallowing_capability": "Liquids only",
+      "weight_lb": 182.4,
+      "is_chemo_day": false,
+      "active_symptoms_present": [
+        "tinnitus",
+        "peripheral_neuropathy",
+        "nausea"
+      ],
+      "active_symptoms_absent": [
+        "vomiting"
+      ]
+    },
+    "latent_medications": []
+  }
+]

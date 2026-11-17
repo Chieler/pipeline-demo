@@ -1,0 +1,175 @@
+{
+  "id": "onc_head_neck_radiation",
+  "specialty": "oncology",
+  "label": "Head & neck radiation · cisplatin",
+  "doctor": {
+    "display": "Dr. James Whitaker",
+    "ref": "Dr. Whitaker",
+    "practice": "Dr. James Whitaker's practice",
+    "specialty": "Oncology"
+  },
+  "patient": {
+    "first": "James",
+    "full": "James C.",
+    "initials": "JC",
+    "email": "james@example.com",
+    "course": "Radiation · 33 sessions + weekly cisplatin",
+    "diagnosis": "Head oncology · oral cavity",
+    "current_status": "Day 25 · week 4 of 7 · session 18 of 33"
+  },
+  "daily_goals": {
+    "fluids_l": 2.5,
+    "mouth_rinse_count": 4,
+    "rinse_type": "Salt + baking soda"
+  },
+  "questionnaire_scales": {
+    "mouth_sores_scale": [
+      {
+        "score": 0,
+        "label": "None"
+      },
+      {
+        "score": 1,
+        "label": "Mild"
+      },
+      {
+        "score": 2,
+        "label": "Sores · soft food OK"
+      },
+      {
+        "score": 3,
+        "label": "Sores · liquids only"
+      },
+      {
+        "score": 4,
+        "label": "Can't eat or drink"
+      }
+    ],
+    "pain_scale": {
+      "min": 0,
+      "max": 10,
+      "unit": "NRS numeric rating scale",
+      "alert_threshold": 7
+    },
+    "swallowing_options": [
+      "Solids",
+      "Soft food",
+      "Liquids only",
+      "Nothing"
+    ],
+    "associated_symptoms": [
+      "Dry mouth",
+      "Taste change",
+      "Thick saliva",
+      "Fever"
+    ]
+  },
+  "sample_longitudinal_trajectory": {
+    "weeks": [
+      "W1",
+      "W2",
+      "W3",
+      "W4",
+      "W5",
+      "W6",
+      "W7"
+    ],
+    "pain_weekly_average": [
+      {
+        "week": "W1",
+        "avg": 1
+      },
+      {
+        "week": "W2",
+        "avg": 3
+      },
+      {
+        "week": "W3",
+        "avg": 5
+      },
+      {
+        "week": "W4",
+        "avg": 6,
+        "label": "today · 6"
+      }
+    ],
+    "weight_lb_trajectory": [
+      {
+        "week": "W1",
+        "weight_lb": 172
+      },
+      {
+        "week": "W2",
+        "weight_lb": 170.4
+      },
+      {
+        "week": "W3",
+        "weight_lb": 167.7
+      },
+      {
+        "week": "W4",
+        "weight_lb": 163.6,
+        "label": "today · 163.6"
+      }
+    ],
+    "weight_alert_line_lb": 165,
+    "swallowing_trajectory": [
+      {
+        "week": "W1",
+        "status": "Solids"
+      },
+      {
+        "week": "W2",
+        "status": "Solids"
+      },
+      {
+        "week": "W3",
+        "status": "Soft"
+      },
+      {
+        "week": "W4",
+        "status": "Soft"
+      }
+    ]
+  },
+  "sample_patient_entry": {
+    "timestamp": "Today, 8:05 am",
+    "day": 25,
+    "week": 4,
+    "pain": 6,
+    "sores": 2,
+    "swallowing": "Soft food",
+    "also_today": [
+      "Dry mouth",
+      "Taste change"
+    ],
+    "current_weight_lb": 163.6,
+    "is_flagged": true,
+    "flag_reason": "Weight 163.6 lb · below 165 lb alert line. Down 8.4 lb since day 1."
+  },
+  "imaging_dicom_scans": [
+    {
+      "type": "MRI · head, with contrast",
+      "date": "12 Sep",
+      "slices": 184,
+      "note": "Baseline"
+    },
+    {
+      "type": "PET-CT · staging",
+      "date": "18 Sep",
+      "slices": 312,
+      "note": "Staging"
+    },
+    {
+      "type": "CT · radiation planning",
+      "date": "25 Sep",
+      "slices": 160,
+      "note": "Planning"
+    }
+  ],
+  "totals": {
+    "check_ins": 26,
+    "photos": 9,
+    "flagged": 2
+  }
+}

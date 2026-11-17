@@ -1,0 +1,4390 @@
+[
+  {
+    "checkin_id": "CHK-SYN-PT-101-D01",
+    "slot_id": "SLOT-SYN-PT-101-D01",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 1,
+    "date": "2026-10-05",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "No nausea",
+        "evidence_quote": "No nausea, no pain, ate normal meals.",
+        "status": "absent",
+        "temporal_anchor": "present",
+        "severity": null,
+        "exact_count": 0,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "pain",
+        "original_phrase": "no pain",
+        "evidence_quote": "No nausea, no pain, ate normal meals.",
+        "status": "absent",
+        "temporal_anchor": "present",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-101-D02",
+    "slot_id": "SLOT-SYN-PT-101-D02",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 2,
+    "date": "2026-10-06",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "fatigue",
+        "original_phrase": "slightly tired",
+        "evidence_quote": "Feeling slightly tired this afternoon",
+        "status": "present",
+        "temporal_anchor": "present",
+        "severity": {
+          "value": 2,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "No nausea",
+        "evidence_quote": "No nausea.",
+        "status": "absent",
+        "temporal_anchor": "present",
+        "severity": null,
+        "exact_count": 0,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-101-D03",
+    "slot_id": "SLOT-SYN-PT-101-D03",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 3,
+    "date": "2026-10-07",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "mucositis",
+        "original_phrase": "throat feels a little scratchy",
+        "evidence_quote": "throat feels a little scratchy",
+        "status": "present",
+        "temporal_anchor": "present",
+        "severity": {
+          "value": 1,
+          "scale": "0-4"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "no sickness or stomach upset",
+        "evidence_quote": "no sickness or stomach upset.",
+        "status": "absent",
+        "temporal_anchor": "present",
+        "severity": null,
+        "exact_count": 0,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-101-D04",
+    "slot_id": "SLOT-SYN-PT-101-D04",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 4,
+    "date": "2026-10-08",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "feeling queasy, nausea maybe a 3 out of 10",
+        "evidence_quote": "Around dinner I started feeling queasy, nausea maybe a 3 out of 10.",
+        "status": "present",
+        "temporal_anchor": "today_earlier",
+        "severity": {
+          "value": 3,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "medication_event",
+        "normalized_concept": "Ondansetron",
+        "original_phrase": "Took my ondansetron 8mg",
+        "evidence_quote": "Took my ondansetron 8mg.",
+        "status": "taken",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-101-D05",
+    "slot_id": "SLOT-SYN-PT-101-D05",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 5,
+    "date": "2026-10-09",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "lingering nausea, roughly 5 out of 10",
+        "evidence_quote": "Woke up with lingering nausea, roughly 5 out of 10.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 5,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "medication_event",
+        "normalized_concept": "Dexamethasone",
+        "original_phrase": "took my morning steroid",
+        "evidence_quote": "took my morning steroid and anti-nausea pill.",
+        "status": "taken",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "medication_event",
+        "normalized_concept": "Ondansetron",
+        "original_phrase": "anti-nausea pill",
+        "evidence_quote": "took my morning steroid and anti-nausea pill.",
+        "status": "taken",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-101-D06",
+    "slot_id": "SLOT-SYN-PT-101-D06",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 6,
+    "date": "2026-10-10",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "Threw up once around 2pm",
+        "evidence_quote": "Threw up once around 2pm after trying to drink a protein shake.",
+        "status": "present",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": 1,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "Nausea was at a 6",
+        "evidence_quote": "Nausea was at a 6.",
+        "status": "present",
+        "temporal_anchor": "today_earlier",
+        "severity": {
+          "value": 6,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "mucositis",
+        "original_phrase": "Throat is tender",
+        "evidence_quote": "Throat is tender.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 1,
+          "scale": "0-4"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-101-D07",
+    "slot_id": "SLOT-SYN-PT-101-D07",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 7,
+    "date": "2026-10-11",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "Nausea is down to a 3",
+        "evidence_quote": "Nausea is down to a 3 and haven't vomited.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 3,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "haven't vomited",
+        "evidence_quote": "haven't vomited.",
+        "status": "absent",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": 0,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "fatigue",
+        "original_phrase": "quite exhausted",
+        "evidence_quote": "Still quite exhausted",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 5,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-101-D08",
+    "slot_id": "SLOT-SYN-PT-101-D08",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 8,
+    "date": "2026-10-12",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "Nausea has basically cleared up",
+        "evidence_quote": "Nausea has basically cleared up.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 1,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "dry_mouth",
+        "original_phrase": "Mouth feels dry",
+        "evidence_quote": "Mouth feels dry though",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "mucositis",
+        "original_phrase": "mild burning when swallowing",
+        "evidence_quote": "throat has some mild burning when swallowing eggs.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 1,
+          "scale": "0-4"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-101-D09",
+    "slot_id": "SLOT-SYN-PT-101-D09",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 9,
+    "date": "2026-10-13",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "No nausea",
+        "evidence_quote": "No nausea or vomiting today.",
+        "status": "absent",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": 0,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "or vomiting",
+        "evidence_quote": "No nausea or vomiting today.",
+        "status": "absent",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": 0,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "fatigue",
+        "original_phrase": "tired",
+        "evidence_quote": "Just tired",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "mucositis",
+        "original_phrase": "throat is a little raw",
+        "evidence_quote": "throat is a little raw.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 1,
+          "scale": "0-4"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-101-D10",
+    "slot_id": "SLOT-SYN-PT-101-D10",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 10,
+    "date": "2026-10-14",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "Stomach feels fine",
+        "evidence_quote": "Stomach feels fine",
+        "status": "absent",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": 0,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "pain",
+        "original_phrase": "throat discomfort is manageable at 2/10",
+        "evidence_quote": "throat discomfort is manageable at 2/10.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 2,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-101-D11",
+    "slot_id": "SLOT-SYN-PT-101-D11",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 11,
+    "date": "2026-10-15",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "feeling nauseous during the drive home, about a 4",
+        "evidence_quote": "Started feeling nauseous during the drive home, about a 4.",
+        "status": "present",
+        "temporal_anchor": "today_earlier",
+        "severity": {
+          "value": 4,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "headache",
+        "original_phrase": "dull headache",
+        "evidence_quote": "Also got a dull headache.",
+        "status": "present",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-101-D13",
+    "slot_id": "SLOT-SYN-PT-101-D13",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 13,
+    "date": "2026-10-17",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "threw up twice in the evening",
+        "evidence_quote": "Yesterday was brutal, threw up twice in the evening.",
+        "status": "present",
+        "temporal_anchor": "yesterday",
+        "severity": null,
+        "exact_count": 2,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "nausea is somewhat better, down to a 4",
+        "evidence_quote": "Today the nausea is somewhat better, down to a 4",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 4,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "dysphagia",
+        "original_phrase": "swallowing hurts",
+        "evidence_quote": "but swallowing hurts.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 2,
+          "scale": "0-4"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-101-D14",
+    "slot_id": "SLOT-SYN-PT-101-D14",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 14,
+    "date": "2026-10-18",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "Felt queasy all morning",
+        "evidence_quote": "Felt queasy all morning",
+        "status": "present",
+        "temporal_anchor": "today_earlier",
+        "severity": {
+          "value": 5,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "threw up a couple times",
+        "evidence_quote": "threw up a couple times after taking my pills.",
+        "status": "present",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": true,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": true,
+        "review_reason": "Unquantified colloquial phrase 'threw up a couple times' - retained verbatim without unsupported numeric precision"
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "dizziness",
+        "original_phrase": "really dizzy when I stood up from the bed",
+        "evidence_quote": "Got really dizzy when I stood up from the bed.",
+        "status": "present",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-101-D15",
+    "slot_id": "SLOT-SYN-PT-101-D15",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 15,
+    "date": "2026-10-19",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "Nausea has mostly settled, only about 2/10",
+        "evidence_quote": "Nausea has mostly settled, only about 2/10.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 2,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "mucositis",
+        "original_phrase": "actual mouth sores now, looks like white patches",
+        "evidence_quote": "throat has actual mouth sores now, looks like white patches.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 2,
+          "scale": "0-4"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "pain",
+        "original_phrase": "Pain is 5/10 when swallowing",
+        "evidence_quote": "Pain is 5/10 when swallowing.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 5,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-101-D16",
+    "slot_id": "SLOT-SYN-PT-101-D16",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 16,
+    "date": "2026-10-20",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "No nausea today",
+        "evidence_quote": "No nausea today.",
+        "status": "absent",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": 0,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "breathlessness",
+        "original_phrase": "noticeably short of breath when walking up the flight of stairs",
+        "evidence_quote": "Felt noticeably short of breath when walking up the flight of stairs to my bedroom.",
+        "status": "present",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-101-D17",
+    "slot_id": "SLOT-SYN-PT-101-D17",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 17,
+    "date": "2026-10-21",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "anticipatory queasiness",
+        "evidence_quote": "A little anticipatory queasiness thinking about chemo tomorrow.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 2,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "mucositis",
+        "original_phrase": "Mouth sores are uncomfortable",
+        "evidence_quote": "Mouth sores are uncomfortable",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 2,
+          "scale": "0-4"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-101-D18",
+    "slot_id": "SLOT-SYN-PT-101-D18",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 18,
+    "date": "2026-10-22",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "Vomited 3 times between 3pm and 7pm",
+        "evidence_quote": "Vomited 3 times between 3pm and 7pm, pure bile.",
+        "status": "present",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": 3,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "Nausea is at least a 7",
+        "evidence_quote": "Nausea is at least a 7.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 7,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "medication_event",
+        "normalized_concept": "Ondansetron",
+        "original_phrase": "Took 2 doses of ondansetron",
+        "evidence_quote": "Took 2 doses of ondansetron.",
+        "status": "taken",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-101-D19",
+    "slot_id": "SLOT-SYN-PT-101-D19",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 19,
+    "date": "2026-10-23",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "Threw up twice this morning",
+        "evidence_quote": "Threw up twice this morning.",
+        "status": "present",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": 2,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "headache",
+        "original_phrase": "Blinding headache from dehydration",
+        "evidence_quote": "Blinding headache from dehydration",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 7,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "fatigue",
+        "original_phrase": "fatigue is an 8 out of 10",
+        "evidence_quote": "fatigue is an 8 out of 10.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 8,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-101-D21",
+    "slot_id": "SLOT-SYN-PT-101-D21",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 21,
+    "date": "2026-10-25",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "Still feeling slightly queasy in the morning",
+        "evidence_quote": "Still feeling slightly queasy in the morning",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 3,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": true,
+        "correction_or_clarification": null,
+        "review_needed": true,
+        "review_reason": "Text report conflicts with structured questionnaire value"
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "pain",
+        "original_phrase": "Throat is raw, pain 6/10",
+        "evidence_quote": "Throat is raw, pain 6/10.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 6,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-101-D22",
+    "slot_id": "SLOT-SYN-PT-101-D22",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 22,
+    "date": "2026-10-26",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "Nausea is down to 2 today",
+        "evidence_quote": "Nausea is down to 2 today.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 2,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "mucositis",
+        "original_phrase": "Mouth sores are painful, especially on the right side of tongue",
+        "evidence_quote": "Mouth sores are painful, especially on the right side of tongue.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 2,
+          "scale": "0-4"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-101-D23",
+    "slot_id": "SLOT-SYN-PT-101-D23",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 23,
+    "date": "2026-10-27",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "dizziness",
+        "original_phrase": "slightly lightheaded when showering",
+        "evidence_quote": "Felt slightly lightheaded when showering.",
+        "status": "present",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "No vomiting",
+        "evidence_quote": "No vomiting, nausea is almost gone.",
+        "status": "absent",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": 0,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "nausea is almost gone",
+        "evidence_quote": "nausea is almost gone.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 1,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-101-D24",
+    "slot_id": "SLOT-SYN-PT-101-D24",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 24,
+    "date": "2026-10-28",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "pain",
+        "original_phrase": "Throat pain at 5/10",
+        "evidence_quote": "Throat pain at 5/10.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 5,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "No throwing up",
+        "evidence_quote": "No throwing up.",
+        "status": "absent",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": 0,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-101-D25",
+    "slot_id": "SLOT-SYN-PT-101-D25",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 25,
+    "date": "2026-10-29",
+    "extractable_entities": [
+      {
+        "entity_type": "medication_event",
+        "normalized_concept": "Ondansetron",
+        "original_phrase": "little white nausea tablet",
+        "evidence_quote": "Took the little white nausea tablet with breakfast",
+        "status": "taken",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "medication_event",
+        "normalized_concept": "Dexamethasone",
+        "original_phrase": "the steroid",
+        "evidence_quote": "and the steroid.",
+        "status": "taken",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "moderate waves of nausea around 4pm, about a 5",
+        "evidence_quote": "Felt moderate waves of nausea around 4pm, about a 5.",
+        "status": "present",
+        "temporal_anchor": "today_earlier",
+        "severity": {
+          "value": 5,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-101-D26",
+    "slot_id": "SLOT-SYN-PT-101-D26",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 26,
+    "date": "2026-10-30",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "actually three times if you count the dry heaves",
+        "evidence_quote": "Threw up twice this morning... wait, actually three times if you count the dry heaves right after breakfast.",
+        "status": "present",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": 3,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": "Corrected initial count within report to avoid double-counting",
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "Nausea at 6",
+        "evidence_quote": "Nausea at 6.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 6,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-101-D27",
+    "slot_id": "SLOT-SYN-PT-101-D27",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 27,
+    "date": "2026-10-31",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "No vomiting today",
+        "evidence_quote": "No vomiting today",
+        "status": "absent",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": 0,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "constant low-grade nausea at 4/10",
+        "evidence_quote": "constant low-grade nausea at 4/10.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 4,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "pain",
+        "original_phrase": "Throat pain is intense when trying to swallow saliva",
+        "evidence_quote": "Throat pain is intense when trying to swallow saliva.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 7,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "fatigue",
+        "original_phrase": "Fatigue at 7",
+        "evidence_quote": "Fatigue at 7.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 7,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-101-D28",
+    "slot_id": "SLOT-SYN-PT-101-D28",
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "day_number": 28,
+    "date": "2026-11-01",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "Nausea down to 2",
+        "evidence_quote": "Nausea down to 2.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 2,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "vital",
+        "normalized_concept": "weight",
+        "original_phrase": "Weight is 168.8 lbs",
+        "evidence_quote": "Weight is 168.8 lbs",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 168.8,
+          "unit": "lbs"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "No vomiting",
+        "evidence_quote": "No vomiting.",
+        "status": "absent",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": 0,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-102-D01",
+    "slot_id": "SLOT-SYN-PT-102-D01",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 1,
+    "date": "2026-10-05",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "bit sick to my stomach",
+        "evidence_quote": "Feeling butterflies and a bit sick to my stomach",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 3,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "No vomiting",
+        "evidence_quote": "No vomiting.",
+        "status": "absent",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": 0,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-102-D02",
+    "slot_id": "SLOT-SYN-PT-102-D02",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 2,
+    "date": "2026-10-06",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "Threw up twice in the clinic parking lot",
+        "evidence_quote": "Threw up twice in the clinic parking lot after discharge.",
+        "status": "present",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": 2,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "medication_event",
+        "normalized_concept": "Prochlorperazine",
+        "original_phrase": "Took prochlorperazine 10mg",
+        "evidence_quote": "Took prochlorperazine 10mg when I got home.",
+        "status": "taken",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-102-D03",
+    "slot_id": "SLOT-SYN-PT-102-D03",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 3,
+    "date": "2026-10-07",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "Nausea was relentless today, rating it a 7",
+        "evidence_quote": "Nausea was relentless today, rating it a 7.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 7,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "Vomited 3 times",
+        "evidence_quote": "Vomited 3 times, couldn't keep dinner down.",
+        "status": "present",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": 3,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "fatigue",
+        "original_phrase": "Extreme fatigue",
+        "evidence_quote": "Extreme fatigue.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 7,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-102-D04",
+    "slot_id": "SLOT-SYN-PT-102-D04",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 4,
+    "date": "2026-10-08",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "No vomiting today",
+        "evidence_quote": "No vomiting today",
+        "status": "absent",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": 0,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "nausea down to a 2",
+        "evidence_quote": "nausea down to a 2",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 2,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-102-D05",
+    "slot_id": "SLOT-SYN-PT-102-D05",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 5,
+    "date": "2026-10-09",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "dizziness",
+        "original_phrase": "Got dizzy when getting out of bed this morning, the whole room swayed",
+        "evidence_quote": "Got dizzy when getting out of bed this morning, the whole room swayed for a minute.",
+        "status": "present",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "No sickness",
+        "evidence_quote": "No sickness.",
+        "status": "absent",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": 0,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-102-D06",
+    "slot_id": "SLOT-SYN-PT-102-D06",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 6,
+    "date": "2026-10-10",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "dry_mouth",
+        "original_phrase": "Mouth is getting sticky and dry",
+        "evidence_quote": "Mouth is getting sticky and dry.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "mucositis",
+        "original_phrase": "Mild sore throat",
+        "evidence_quote": "Mild sore throat.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 1,
+          "scale": "0-4"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "No nausea or vomiting today",
+        "evidence_quote": "No nausea or vomiting today.",
+        "status": "absent",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": 0,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "or vomiting",
+        "evidence_quote": "No nausea or vomiting today.",
+        "status": "absent",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": 0,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-102-D08",
+    "slot_id": "SLOT-SYN-PT-102-D08",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 8,
+    "date": "2026-10-12",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "Severe stomach churning anticipating tomorrow's chemo",
+        "evidence_quote": "Severe stomach churning anticipating tomorrow's chemo.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 5,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "medication_event",
+        "normalized_concept": "Lorazepam",
+        "original_phrase": "Took lorazepam 0.5mg",
+        "evidence_quote": "Took lorazepam 0.5mg to calm the anticipatory nausea.",
+        "status": "taken",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "No throwing up yet",
+        "evidence_quote": "No throwing up yet.",
+        "status": "absent",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": 0,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-102-D09",
+    "slot_id": "SLOT-SYN-PT-102-D09",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 9,
+    "date": "2026-10-13",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "Vomited 4 times between clinic and home",
+        "evidence_quote": "Vomited 4 times between clinic and home.",
+        "status": "present",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": 4,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "Nausea is an 8",
+        "evidence_quote": "Nausea is an 8.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 8,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-102-D10",
+    "slot_id": "SLOT-SYN-PT-102-D10",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 10,
+    "date": "2026-10-14",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "Heaved multiple times throughout the night",
+        "evidence_quote": "Heaved multiple times throughout the night.",
+        "status": "present",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": true,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": true,
+        "review_reason": "Unquantified colloquial phrase 'Heaved multiple times throughout the night' - retained verbatim without unsupported numeric precision"
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "dizziness",
+        "original_phrase": "Feel completely depleted and dizzy",
+        "evidence_quote": "Feel completely depleted and dizzy.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-102-D11",
+    "slot_id": "SLOT-SYN-PT-102-D11",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 11,
+    "date": "2026-10-15",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "mucositis",
+        "original_phrase": "mouth and tongue feel like they're on fire today",
+        "evidence_quote": "My mouth and tongue feel like they're on fire today",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 3,
+          "scale": "0-4"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "dysphagia",
+        "original_phrase": "can barely swallow water",
+        "evidence_quote": "can barely swallow water without screaming.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 3,
+          "scale": "0-4"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "pain",
+        "original_phrase": "Pain is 8/10 in reality",
+        "evidence_quote": "Pain is 8/10 in reality.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 8,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": true,
+        "correction_or_clarification": null,
+        "review_needed": true,
+        "review_reason": "Text report conflicts with structured questionnaire value"
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-102-D12",
+    "slot_id": "SLOT-SYN-PT-102-D12",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 12,
+    "date": "2026-10-16",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "headache",
+        "original_phrase": "Pounding dehydration headache all morning",
+        "evidence_quote": "Pounding dehydration headache all morning.",
+        "status": "present",
+        "temporal_anchor": "today_earlier",
+        "severity": {
+          "value": 7,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "Vomited once after drinking apple juice",
+        "evidence_quote": "Vomited once after drinking apple juice.",
+        "status": "present",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": 1,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "Nausea is around a 4",
+        "evidence_quote": "Nausea is around a 4.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 4,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-102-D13",
+    "slot_id": "SLOT-SYN-PT-102-D13",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 13,
+    "date": "2026-10-17",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "Nausea easing down to a 3",
+        "evidence_quote": "Nausea easing down to a 3.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 3,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "No vomiting today",
+        "evidence_quote": "No vomiting today.",
+        "status": "absent",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": 0,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "medication_event",
+        "normalized_concept": "Magic Mouthwash",
+        "original_phrase": "Used magic mouthwash 4 times",
+        "evidence_quote": "Used magic mouthwash 4 times",
+        "status": "taken",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-102-D14",
+    "slot_id": "SLOT-SYN-PT-102-D14",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 14,
+    "date": "2026-10-18",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "Nausea is mild at 2",
+        "evidence_quote": "Nausea is mild at 2, no vomiting.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 2,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "no vomiting",
+        "evidence_quote": "no vomiting.",
+        "status": "absent",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": 0,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-102-D15",
+    "slot_id": "SLOT-SYN-PT-102-D15",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 15,
+    "date": "2026-10-19",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "Anxious about tomorrow",
+        "evidence_quote": "Anxious about tomorrow.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 4,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "medication_event",
+        "normalized_concept": "Magic Mouthwash",
+        "original_phrase": "missed my evening mouth rinse dose",
+        "evidence_quote": "Fell asleep early and missed my evening mouth rinse dose.",
+        "status": "missed",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "dry_mouth",
+        "original_phrase": "severe mouth dryness",
+        "evidence_quote": "Woke up with severe mouth dryness.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-102-D16",
+    "slot_id": "SLOT-SYN-PT-102-D16",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 16,
+    "date": "2026-10-20",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "Vomited 3 times",
+        "evidence_quote": "Vomited 3 times.",
+        "status": "present",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": 3,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "syncope",
+        "original_phrase": "blackness closed in around my eyes and I nearly fainted",
+        "evidence_quote": "blackness closed in around my eyes and I nearly fainted, had to sit on the floor.",
+        "status": "present",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "Chemo #3 was disastrous",
+        "evidence_quote": "Chemo #3 was disastrous.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 8,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-102-D17",
+    "slot_id": "SLOT-SYN-PT-102-D17",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 17,
+    "date": "2026-10-21",
+    "extractable_entities": [
+      {
+        "entity_type": "medication_event",
+        "normalized_concept": "Prochlorperazine",
+        "original_phrase": "Stopped prochlorperazine",
+        "evidence_quote": "Stopped prochlorperazine",
+        "status": "discontinued",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "medication_event",
+        "normalized_concept": "Aprepitant",
+        "original_phrase": "started Emend (aprepitant)",
+        "evidence_quote": "started Emend (aprepitant) plus ondansetron 8mg.",
+        "status": "started",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "medication_event",
+        "normalized_concept": "Ondansetron",
+        "original_phrase": "ondansetron 8mg",
+        "evidence_quote": "started Emend (aprepitant) plus ondansetron 8mg.",
+        "status": "started",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "Vomited once earlier",
+        "evidence_quote": "Vomited once earlier.",
+        "status": "present",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": 1,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-102-D18",
+    "slot_id": "SLOT-SYN-PT-102-D18",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 18,
+    "date": "2026-10-22",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "Nausea dropped down to a 3",
+        "evidence_quote": "Nausea dropped down to a 3",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 3,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "no vomiting at all today",
+        "evidence_quote": "no vomiting at all today.",
+        "status": "absent",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": 0,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-102-D19",
+    "slot_id": "SLOT-SYN-PT-102-D19",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 19,
+    "date": "2026-10-23",
+    "extractable_entities": [
+      {
+        "entity_type": "medication_event",
+        "normalized_concept": "Ondansetron",
+        "original_phrase": "Forgot my midday anti-nausea pill",
+        "evidence_quote": "Forgot my midday anti-nausea pill because I fell asleep for 4 hours.",
+        "status": "missed",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "breakthrough nausea around 5pm, about a 4",
+        "evidence_quote": "Felt some breakthrough nausea around 5pm, about a 4.",
+        "status": "present",
+        "temporal_anchor": "today_earlier",
+        "severity": {
+          "value": 4,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-102-D20",
+    "slot_id": "SLOT-SYN-PT-102-D20",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 20,
+    "date": "2026-10-24",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "Nausea under control at 2",
+        "evidence_quote": "Nausea under control at 2.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 2,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "mucositis",
+        "original_phrase": "Mouth sores remain uncomfortable",
+        "evidence_quote": "Mouth sores remain uncomfortable",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 2,
+          "scale": "0-4"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "No sickness",
+        "evidence_quote": "No sickness.",
+        "status": "absent",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": 0,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-102-D21",
+    "slot_id": "SLOT-SYN-PT-102-D21",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 21,
+    "date": "2026-10-25",
+    "extractable_entities": [
+      {
+        "entity_type": "vital",
+        "normalized_concept": "weight",
+        "original_phrase": "Weighed myself: 134.6 lbs",
+        "evidence_quote": "Weighed myself: 134.6 lbs.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 134.6,
+          "unit": "lbs"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "dysphagia",
+        "original_phrase": "Swallowing is difficult",
+        "evidence_quote": "Swallowing is difficult but managing protein drinks.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 2,
+          "scale": "0-4"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "No vomiting",
+        "evidence_quote": "No vomiting.",
+        "status": "absent",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": 0,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-102-D22",
+    "slot_id": "SLOT-SYN-PT-102-D22",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 22,
+    "date": "2026-10-26",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "pain",
+        "original_phrase": "Throat pain is a 7 today",
+        "evidence_quote": "Throat pain is a 7 today, very hard to swallow.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 7,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "Nausea is mild at 3",
+        "evidence_quote": "Nausea is mild at 3",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 3,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "No throwing up",
+        "evidence_quote": "No throwing up.",
+        "status": "absent",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": 0,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-102-D23",
+    "slot_id": "SLOT-SYN-PT-102-D23",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 23,
+    "date": "2026-10-27",
+    "extractable_entities": [
+      {
+        "entity_type": "medication_event",
+        "normalized_concept": "Aprepitant",
+        "original_phrase": "Took Emend before treatment",
+        "evidence_quote": "Took Emend before treatment.",
+        "status": "taken",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "Threw up once in the evening",
+        "evidence_quote": "Threw up once in the evening",
+        "status": "present",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": 1,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "vital",
+        "normalized_concept": "weight",
+        "original_phrase": "Weight is 134.2 lbs",
+        "evidence_quote": "Weight is 134.2 lbs",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 134.2,
+          "unit": "lbs"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-102-D24",
+    "slot_id": "SLOT-SYN-PT-102-D24",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 24,
+    "date": "2026-10-28",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "Delayed nausea around a 4",
+        "evidence_quote": "Delayed nausea around a 4, no vomiting.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 4,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "no vomiting",
+        "evidence_quote": "no vomiting.",
+        "status": "absent",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": 0,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "dizziness",
+        "original_phrase": "lightheaded when standing",
+        "evidence_quote": "Weak and lightheaded when standing.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-102-D26",
+    "slot_id": "SLOT-SYN-PT-102-D26",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 26,
+    "date": "2026-10-30",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "Nausea is at 3 today",
+        "evidence_quote": "Nausea is at 3 today",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 3,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "pain",
+        "original_phrase": "throat is raw and painful",
+        "evidence_quote": "throat is raw and painful.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 7,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "No vomiting",
+        "evidence_quote": "No vomiting.",
+        "status": "absent",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": 0,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-102-D27",
+    "slot_id": "SLOT-SYN-PT-102-D27",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 27,
+    "date": "2026-10-31",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "No throwing up today",
+        "evidence_quote": "No throwing up today.",
+        "status": "absent",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": 0,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "Nausea is down to a 2",
+        "evidence_quote": "Nausea is down to a 2.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 2,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "headache",
+        "original_phrase": "Might have had a slight headache earlier",
+        "evidence_quote": "Might have had a slight headache earlier, hard to tell",
+        "status": "uncertain",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": true,
+        "review_reason": "Patient expressed uncertainty regarding symptom presence"
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-102-D28",
+    "slot_id": "SLOT-SYN-PT-102-D28",
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "day_number": 28,
+    "date": "2026-11-01",
+    "extractable_entities": [
+      {
+        "entity_type": "vital",
+        "normalized_concept": "weight",
+        "original_phrase": "Weight holding at 133.6 lbs",
+        "evidence_quote": "Weight holding at 133.6 lbs.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 133.6,
+          "unit": "lbs"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "No vomiting",
+        "evidence_quote": "No vomiting.",
+        "status": "absent",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": 0,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "pain",
+        "original_phrase": "Throat pain is the main issue now",
+        "evidence_quote": "Throat pain is the main issue now, swallowing liquids only.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 7,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-103-D01",
+    "slot_id": "SLOT-SYN-PT-103-D01",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 1,
+    "date": "2026-10-05",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "no nausea",
+        "evidence_quote": "Feeling fine, no pain, no nausea.",
+        "status": "absent",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": 0,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "pain",
+        "original_phrase": "no pain",
+        "evidence_quote": "no pain",
+        "status": "absent",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-103-D02",
+    "slot_id": "SLOT-SYN-PT-103-D02",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 2,
+    "date": "2026-10-06",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "dry_mouth",
+        "original_phrase": "Throat feels a touch dry",
+        "evidence_quote": "Throat feels a touch dry",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "No stomach trouble",
+        "evidence_quote": "No stomach trouble.",
+        "status": "absent",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": 0,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-103-D03",
+    "slot_id": "SLOT-SYN-PT-103-D03",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 3,
+    "date": "2026-10-07",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "Felt green around the gills",
+        "evidence_quote": "Felt green around the gills on the drive home",
+        "status": "present",
+        "temporal_anchor": "today_earlier",
+        "severity": {
+          "value": 4,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "threw up once in the driveway",
+        "evidence_quote": "threw up once in the driveway.",
+        "status": "present",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": 1,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "medication_event",
+        "normalized_concept": "Ondansetron ODT",
+        "original_phrase": "melt-in-mouth nausea tablet",
+        "evidence_quote": "Took the melt-in-mouth nausea tablet.",
+        "status": "taken",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-103-D04",
+    "slot_id": "SLOT-SYN-PT-103-D04",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 4,
+    "date": "2026-10-08",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "Stomach was churning all morning",
+        "evidence_quote": "Stomach was churning all morning.",
+        "status": "present",
+        "temporal_anchor": "today_earlier",
+        "severity": {
+          "value": 5,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "Heaved twice after breakfast",
+        "evidence_quote": "Heaved twice after breakfast.",
+        "status": "present",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": 2,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "medication_event",
+        "normalized_concept": "Ondansetron ODT",
+        "original_phrase": "Took ondansetron",
+        "evidence_quote": "Took ondansetron.",
+        "status": "taken",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-103-D05",
+    "slot_id": "SLOT-SYN-PT-103-D05",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 5,
+    "date": "2026-10-09",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "singultus",
+        "original_phrase": "violent hiccups around noon that wouldn't stop for four hours straight",
+        "evidence_quote": "Started getting violent hiccups around noon that wouldn't stop for four hours straight.",
+        "status": "present",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "Nausea is down to 3",
+        "evidence_quote": "Nausea is down to 3",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 3,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "no throwing up today",
+        "evidence_quote": "no throwing up today.",
+        "status": "absent",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": 0,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-103-D06",
+    "slot_id": "SLOT-SYN-PT-103-D06",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 6,
+    "date": "2026-10-10",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "singultus",
+        "original_phrase": "just a few stray ones",
+        "evidence_quote": "Hiccups finally eased off this morning, just a few stray ones.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "nausea 2/10",
+        "evidence_quote": "nausea 2/10.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 2,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "No vomiting",
+        "evidence_quote": "No vomiting.",
+        "status": "absent",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": 0,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-103-D07",
+    "slot_id": "SLOT-SYN-PT-103-D07",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 7,
+    "date": "2026-10-11",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "fatigue",
+        "original_phrase": "Felt worn out today",
+        "evidence_quote": "Felt worn out today",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "no nausea",
+        "evidence_quote": "no nausea and no throwing up.",
+        "status": "absent",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": 0,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "no throwing up",
+        "evidence_quote": "no throwing up.",
+        "status": "absent",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": 0,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-103-D08",
+    "slot_id": "SLOT-SYN-PT-103-D08",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 8,
+    "date": "2026-10-12",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "No stomach upset whatsoever",
+        "evidence_quote": "No stomach upset whatsoever.",
+        "status": "absent",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": 0,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-103-D09",
+    "slot_id": "SLOT-SYN-PT-103-D09",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 9,
+    "date": "2026-10-13",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "pain",
+        "original_phrase": "Throat is mildly sore, pain at 2/10",
+        "evidence_quote": "Throat is mildly sore, pain at 2/10.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 2,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "Denies nausea",
+        "evidence_quote": "Denies nausea.",
+        "status": "absent",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": 0,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-103-D10",
+    "slot_id": "SLOT-SYN-PT-103-D10",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 10,
+    "date": "2026-10-14",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "Chucked up my lunch twice right after getting home",
+        "evidence_quote": "Chucked up my lunch twice right after getting home.",
+        "status": "present",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": 2,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "Nausea was a solid 6",
+        "evidence_quote": "Nausea was a solid 6.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 6,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "medication_event",
+        "normalized_concept": "Ondansetron ODT",
+        "original_phrase": "dissolvable ondansetron",
+        "evidence_quote": "Took the dissolvable ondansetron.",
+        "status": "taken",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-103-D11",
+    "slot_id": "SLOT-SYN-PT-103-D11",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 11,
+    "date": "2026-10-15",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "tinnitus",
+        "original_phrase": "persistent high-pitched ringing in both ears that started last night and won't go away",
+        "evidence_quote": "There is a persistent high-pitched ringing in both ears that started last night and won't go away.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "Vomited once this morning",
+        "evidence_quote": "Vomited once this morning.",
+        "status": "present",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": 1,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "Nausea at 5",
+        "evidence_quote": "Nausea at 5.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 5,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-103-D12",
+    "slot_id": "SLOT-SYN-PT-103-D12",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 12,
+    "date": "2026-10-16",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "tinnitus",
+        "original_phrase": "Constant ringing like a tea kettle in my ears all day",
+        "evidence_quote": "Constant ringing like a tea kettle in my ears all day.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "Nausea is a 4",
+        "evidence_quote": "Nausea is a 4",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 4,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "threw up breakfast",
+        "evidence_quote": "threw up breakfast.",
+        "status": "present",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": 1,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-103-D13",
+    "slot_id": "SLOT-SYN-PT-103-D13",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 13,
+    "date": "2026-10-17",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "Threw up a few times yesterday and this morning",
+        "evidence_quote": "Threw up a few times yesterday and this morning, mostly dry heaves.",
+        "status": "present",
+        "temporal_anchor": "mixed",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": true,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": true,
+        "review_reason": "Unquantified colloquial phrase 'Threw up a few times yesterday and this morning' - retained verbatim without unsupported numeric precision"
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "tinnitus",
+        "original_phrase": "Ears are still buzzing",
+        "evidence_quote": "Ears are still buzzing.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-103-D14",
+    "slot_id": "SLOT-SYN-PT-103-D14",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 14,
+    "date": "2026-10-18",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "Nausea is down to a 3",
+        "evidence_quote": "Nausea is down to a 3.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 3,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "No vomiting today",
+        "evidence_quote": "No vomiting today.",
+        "status": "absent",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": 0,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "tinnitus",
+        "original_phrase": "ears still ringing",
+        "evidence_quote": "ears still ringing.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-103-D16",
+    "slot_id": "SLOT-SYN-PT-103-D16",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 16,
+    "date": "2026-10-20",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "nausea at 3",
+        "evidence_quote": "Feeling somewhat steadier today, nausea at 3",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 3,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "tinnitus",
+        "original_phrase": "ear ringing is definitely here to stay",
+        "evidence_quote": "the ear ringing is definitely here to stay.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-103-D17",
+    "slot_id": "SLOT-SYN-PT-103-D17",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 17,
+    "date": "2026-10-21",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "Heaved my guts out 3 times this afternoon",
+        "evidence_quote": "Heaved my guts out 3 times this afternoon.",
+        "status": "present",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": 3,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "Nausea is a 7",
+        "evidence_quote": "Nausea is a 7.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 7,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "medication_event",
+        "normalized_concept": "Metoclopramide",
+        "original_phrase": "Took metoclopramide",
+        "evidence_quote": "Took metoclopramide before dinner.",
+        "status": "taken",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-103-D18",
+    "slot_id": "SLOT-SYN-PT-103-D18",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 18,
+    "date": "2026-10-22",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "tinnitus",
+        "original_phrase": "Ear ringing got louder after yesterday's chemo",
+        "evidence_quote": "Ear ringing got louder after yesterday's chemo.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "Vomited twice today",
+        "evidence_quote": "Vomited twice today.",
+        "status": "present",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": 2,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "breathlessness",
+        "original_phrase": "strangely winded just walking from bedroom to kitchen",
+        "evidence_quote": "Also felt strangely winded just walking from bedroom to kitchen.",
+        "status": "present",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-103-D19",
+    "slot_id": "SLOT-SYN-PT-103-D19",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 19,
+    "date": "2026-10-23",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "syncope",
+        "original_phrase": "actually passed out for a few seconds on the rug",
+        "evidence_quote": "stood up from the sofa and actually passed out for a few seconds on the rug.",
+        "status": "present",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "Vomited once earlier",
+        "evidence_quote": "Vomited once earlier.",
+        "status": "present",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": 1,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "Nausea 5",
+        "evidence_quote": "Nausea 5.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 5,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-103-D20",
+    "slot_id": "SLOT-SYN-PT-103-D20",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 20,
+    "date": "2026-10-24",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "No throwing up today",
+        "evidence_quote": "No throwing up today.",
+        "status": "absent",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": 0,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "Nausea is at 4",
+        "evidence_quote": "Nausea is at 4.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 4,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-103-D21",
+    "slot_id": "SLOT-SYN-PT-103-D21",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 21,
+    "date": "2026-10-25",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "dysphagia",
+        "original_phrase": "Can only get down lukewarm soup, throat hurts too much for bread",
+        "evidence_quote": "Can only get down lukewarm soup, throat hurts too much for bread.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 2,
+          "scale": "0-4"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "pain",
+        "original_phrase": "Pain is easily a 7 when trying to swallow",
+        "evidence_quote": "Pain is easily a 7 when trying to swallow.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 7,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-103-D22",
+    "slot_id": "SLOT-SYN-PT-103-D22",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 22,
+    "date": "2026-10-26",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "peripheral_neuropathy",
+        "original_phrase": "fingertips feel numb and prickly like pins and needles",
+        "evidence_quote": "My fingertips feel numb and prickly like pins and needles.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "Nausea is down to 2",
+        "evidence_quote": "Nausea is down to 2.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 2,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-103-D23",
+    "slot_id": "SLOT-SYN-PT-103-D23",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 23,
+    "date": "2026-10-27",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "peripheral_neuropathy",
+        "original_phrase": "Tingling spread to my toes today",
+        "evidence_quote": "Tingling spread to my toes today. Walking feels like walking on bubble wrap.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "tinnitus",
+        "original_phrase": "Ear ringing constant",
+        "evidence_quote": "Ear ringing constant.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "No vomiting",
+        "evidence_quote": "No vomiting.",
+        "status": "absent",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": 0,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-103-D24",
+    "slot_id": "SLOT-SYN-PT-103-D24",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 24,
+    "date": "2026-10-28",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "tinnitus",
+        "original_phrase": "ringing",
+        "evidence_quote": "Told doctor about the ringing and numb fingers.",
+        "status": "present",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "peripheral_neuropathy",
+        "original_phrase": "numb fingers",
+        "evidence_quote": "Told doctor about the ringing and numb fingers.",
+        "status": "present",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "Threw up twice after getting home",
+        "evidence_quote": "Threw up twice after getting home.",
+        "status": "present",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": 2,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "Nausea is at a 6",
+        "evidence_quote": "Nausea is at a 6.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 6,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-103-D25",
+    "slot_id": "SLOT-SYN-PT-103-D25",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 25,
+    "date": "2026-10-29",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "singultus",
+        "original_phrase": "hiccups came back after the steroid infusion",
+        "evidence_quote": "The hiccups came back after the steroid infusion yesterday",
+        "status": "present",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "tinnitus",
+        "original_phrase": "ear ringing",
+        "evidence_quote": "along with ear ringing.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "Vomited once around lunch",
+        "evidence_quote": "Vomited once around lunch.",
+        "status": "present",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": 1,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "Nausea at 5",
+        "evidence_quote": "Nausea at 5.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 5,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-103-D26",
+    "slot_id": "SLOT-SYN-PT-103-D26",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 26,
+    "date": "2026-10-30",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "actually vomited three times total today",
+        "evidence_quote": "Heaved once before noon and once after... wait, actually vomited three times total today if counting the morning bile.",
+        "status": "present",
+        "temporal_anchor": "today_earlier",
+        "severity": null,
+        "exact_count": 3,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": "Corrected initial count within report to avoid double-counting",
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "Nausea at 6",
+        "evidence_quote": "Nausea at 6.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 6,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  },
+  {
+    "checkin_id": "CHK-SYN-PT-103-D28",
+    "slot_id": "SLOT-SYN-PT-103-D28",
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "day_number": 28,
+    "date": "2026-11-01",
+    "extractable_entities": [
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "tinnitus",
+        "original_phrase": "Ears are still ringing",
+        "evidence_quote": "Ears are still ringing",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "peripheral_neuropathy",
+        "original_phrase": "fingers still numb and tingling",
+        "evidence_quote": "fingers still numb and tingling",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "nausea",
+        "original_phrase": "stomach has finally settled down",
+        "evidence_quote": "but stomach has finally settled down.",
+        "status": "present",
+        "temporal_anchor": "current",
+        "severity": {
+          "value": 2,
+          "scale": "0-10"
+        },
+        "exact_count": null,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      },
+      {
+        "entity_type": "symptom",
+        "normalized_concept": "vomiting",
+        "original_phrase": "No vomiting today",
+        "evidence_quote": "No vomiting today.",
+        "status": "absent",
+        "temporal_anchor": "current",
+        "severity": null,
+        "exact_count": 0,
+        "count_bounds": null,
+        "is_unquantified_count": false,
+        "conflict_with_questionnaire": false,
+        "correction_or_clarification": null,
+        "review_needed": false,
+        "review_reason": null
+      }
+    ]
+  }
+]

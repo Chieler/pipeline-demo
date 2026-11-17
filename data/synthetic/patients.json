@@ -1,0 +1,127 @@
+[
+  {
+    "patient_id": "SYN-PT-101",
+    "split": "dev",
+    "pseudonym": "David Chen",
+    "age": 58,
+    "sex": "M",
+    "diagnosis": "Squamous cell carcinoma of right tonsil (cT2N1M0, HPV+)",
+    "protocol": "Head & Neck: 33 fractions IMRT (66 Gy) + Weekly Cisplatin (40 mg/m\u00b2)",
+    "chemo_day_of_week": "Thursday",
+    "chemo_days": [
+      4,
+      11,
+      18,
+      25
+    ],
+    "missing_days": [
+      12,
+      20
+    ],
+    "baseline_weight_lb": 178.0,
+    "alert_weight_lb": 169.0,
+    "medication_regimen": [
+      {
+        "drug": "Ondansetron",
+        "dose": "8mg",
+        "schedule": "Every 8 hours PRN nausea"
+      },
+      {
+        "drug": "Dexamethasone",
+        "dose": "4mg",
+        "schedule": "Once daily on chemo day + 2 days post-chemo"
+      },
+      {
+        "drug": "Salt and Soda Oral Rinse",
+        "dose": "1 rinse",
+        "schedule": "4 times daily"
+      }
+    ],
+    "clinical_summary": "Tonsillar carcinoma undergoing chemoradiation. Compliant with antiemetics, experiences classic delayed CINV 2-4 days post-chemo, mild oral mucositis, moderate dehydration headache."
+  },
+  {
+    "patient_id": "SYN-PT-102",
+    "split": "dev",
+    "pseudonym": "Maria Santos",
+    "age": 49,
+    "sex": "F",
+    "diagnosis": "Squamous cell carcinoma of base of tongue (cT3N2bM0)",
+    "protocol": "Head & Neck: 33 fractions IMRT (70 Gy) + Weekly Cisplatin (40 mg/m\u00b2)",
+    "chemo_day_of_week": "Tuesday",
+    "chemo_days": [
+      2,
+      9,
+      16,
+      23
+    ],
+    "missing_days": [
+      7,
+      25
+    ],
+    "baseline_weight_lb": 142.0,
+    "alert_weight_lb": 135.0,
+    "medication_regimen": [
+      {
+        "drug": "Prochlorperazine",
+        "dose": "10mg",
+        "schedule": "Every 8 hours PRN nausea (discontinued Day 17)"
+      },
+      {
+        "drug": "Aprepitant",
+        "dose": "125mg D1, 80mg D2-3",
+        "schedule": "Added Day 17 for refractory CINV"
+      },
+      {
+        "drug": "Ondansetron",
+        "dose": "8mg",
+        "schedule": "Every 8 hours PRN added Day 17"
+      },
+      {
+        "drug": "Lorazepam",
+        "dose": "0.5mg",
+        "schedule": "PRN anticipatory nausea"
+      },
+      {
+        "drug": "Magic Mouthwash",
+        "dose": "10mL",
+        "schedule": "Swish and spit before meals"
+      }
+    ],
+    "clinical_summary": "Base of tongue cancer with severe acute CINV, anticipatory nausea, and orthostatic dizziness. Regimen escalated on Day 17 with addition of NK1 receptor antagonist (aprepitant). Weight crosses 5% alert threshold by Week 4."
+  },
+  {
+    "patient_id": "SYN-PT-103",
+    "split": "eval",
+    "pseudonym": "Robert Kowalski",
+    "age": 64,
+    "sex": "M",
+    "diagnosis": "Squamous cell carcinoma of hypopharynx (cT3N1M0)",
+    "protocol": "Head & Neck: 33 fractions IMRT (70 Gy) + Weekly Cisplatin (40 mg/m\u00b2)",
+    "chemo_day_of_week": "Wednesday",
+    "chemo_days": [
+      3,
+      10,
+      17,
+      24
+    ],
+    "missing_days": [
+      15,
+      27
+    ],
+    "baseline_weight_lb": 195.0,
+    "alert_weight_lb": 185.0,
+    "medication_regimen": [
+      {
+        "drug": "Ondansetron ODT",
+        "dose": "8mg",
+        "schedule": "Every 8 hours PRN nausea"
+      },
+      {
+        "drug": "Metoclopramide",
+        "dose": "10mg",
+        "schedule": "Before meals PRN nausea/delayed gastric emptying"
+      }
+    ],
+    "clinical_summary": "Hypopharyngeal cancer in eval split. Stoic patient using colloquial terminology. Manifests held-out symptom classes: cisplatin ototoxicity (tinnitus), steroid-induced singultus (hiccups), cumulative peripheral neuropathy, along with syncope."
+  }
+]
