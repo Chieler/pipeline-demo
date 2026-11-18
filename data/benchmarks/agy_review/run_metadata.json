@@ -1,0 +1,14 @@
+{
+  "status": "SUCCESS",
+  "duration_seconds": 408.829854,
+  "num_turns": 1,
+  "usage": {
+    "input_tokens": 23499,
+    "output_tokens": 64780,
+    "thinking_tokens": 62642,
+    "cache_read_tokens": 0,
+    "total_tokens": 88279
+  },
+  "model_label_from_cli_log": "Gemini 3.8 Flash (High)",
+  "interface": "AGY CLI with existing login; one prompt, one turn"
+}

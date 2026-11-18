@@ -17,6 +17,9 @@ def connect(path):
 
 def initialize(conn):
     conn.executescript(Path(__file__).with_name('schema.sql').read_text())
+    if 'symptom_review_json' not in {row[1] for row in conn.execute('PRAGMA table_info(reports)')}:
+        conn.execute("ALTER TABLE reports ADD COLUMN symptom_review_json TEXT NOT NULL DEFAULT '{\"status\":\"not_run\"}'")
+        conn.commit()
 
 
 def import_dataset(conn, data_dir):
@@ -37,7 +40,7 @@ def import_dataset(conn, data_dir):
                 continue
             rows = parse_report(report)
             issues = [issue for row in rows for issue in row['issues_json']]
-            conn.execute('INSERT INTO reports VALUES (?,?,?,?,?,?,?,?,?,?)', (report_id, report['patient_id'], report['submission_timestamp'], report['submission_timestamp'][:10], report['free_text_report'], json.dumps(report['questionnaire_responses']), '1', bool(issues), json.dumps(issues), json.dumps({'status': 'not_run'})))
+            conn.execute('INSERT INTO reports (report_id, patient_id, submitted_at, report_date, raw_text, questionnaire_json, parser_version, review_needed, issues_json, verification_json) VALUES (?,?,?,?,?,?,?,?,?,?)', (report_id, report['patient_id'], report['submission_timestamp'], report['submission_timestamp'][:10], report['free_text_report'], json.dumps(report['questionnaire_responses']), '1', bool(issues), json.dumps(issues), json.dumps({'status': 'not_run'})))
             for i, row in enumerate(rows):
                 conn.execute('INSERT INTO symptom_observations VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)', (f'{report_id}:{i}', report_id, row['source'], row['symptom'], row['original_phrase'], row['presence'], row['severity_value'], row['severity_scale'], row['severity_text'], row['episode_count'], row['observed_date'], row['timing_text'], row['medication_mentioned'], row['evidence'], json.dumps(row['issues_json']), row['is_full_day'], row['count_eligible']))
         for m in meds:
@@ -73,7 +76,7 @@ def _mark_source_conflicts(conn):
                     conn.execute('UPDATE reports SET review_needed=1, issues_json=? WHERE report_id=?', (json.dumps(report_issues), row['report_id']))
 
 
-def daily_symptoms(conn, patient_id):
+def _local_daily_symptoms(conn, patient_id):
     patient = conn.execute('SELECT * FROM patients WHERE patient_id=?', (patient_id,)).fetchone()
     if not patient:
         return []
@@ -114,6 +117,39 @@ def daily_symptoms(conn, patient_id):
             if excluded:
                 count = None
             result.append(dict(date=day, symptom=symptom, presence=present, episode_count=count, count_excluded=excluded, reported=day in reported, source='questionnaire+text' if q and texts else ('questionnaire' if q else ('text' if texts else None))))
+    return result
+
+
+def daily_symptoms(conn, patient_id):
+    """Reviewed symptom presence, with numerical aggregates kept on local/Q rules."""
+    from .agy_review import effective_observations
+    baseline = _local_daily_symptoms(conn, patient_id)
+    patient = conn.execute('SELECT * FROM patients WHERE patient_id=?', (patient_id,)).fetchone()
+    if not patient:
+        return []
+    observations = effective_observations(conn, patient_id=patient_id)
+    groups = defaultdict(list)
+    for row in observations:
+        if row['observed_date']:
+            groups[(row['observed_date'], row['symptom'])].append(row)
+    by_key = {(row['date'], row['symptom']): row for row in baseline}
+    symptoms = sorted({row['symptom'] for row in baseline} | {row['symptom'] for row in observations})
+    reported = {row[0] for row in conn.execute('SELECT report_date FROM reports WHERE patient_id=?', (patient_id,))}
+    start, end = date.fromisoformat(patient['start_date']), date.fromisoformat(patient['end_date'])
+    result = []
+    for offset in range((end - start).days + 1):
+        day = (start + timedelta(days=offset)).isoformat()
+        for symptom in symptoms:
+            row = dict(by_key.get((day, symptom), dict(date=day, symptom=symptom,
+                episode_count=None, count_excluded=False, reported=day in reported)))
+            obs = groups[(day, symptom)]
+            q = [o for o in obs if o['source'] == 'questionnaire']
+            texts = [o for o in obs if o['source'] == 'text']
+            presence = 'present' if any(o['presence'] == 'present' for o in obs) else ('uncertain' if any(o['presence'] == 'uncertain' for o in obs) else ('absent' if obs else None))
+            if any(qr['presence'] == 'absent' and tr['presence'] == 'present' or qr['presence'] == 'present' and tr['presence'] == 'absent' and tr['is_full_day'] for qr in q for tr in texts):
+                presence = 'conflict'
+            row.update(presence=presence, source='questionnaire+text' if q and texts else ('questionnaire' if q else ('text' if texts else None)))
+            result.append(row)
     return result
 
 

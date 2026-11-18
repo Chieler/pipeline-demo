@@ -118,6 +118,28 @@ def parse_text(text: str, report_date: str) -> list[dict]:
     return rows
 
 
+def resolve_review_date(text: str, quote: str, report_date: str):
+    """Apply the local sentence-level date rules to a newly recognized symptom."""
+    with warnings.catch_warnings():
+        warnings.filterwarnings('ignore', message=r'\[W036\].*', category=UserWarning, module=r'medspacy\.common\.medspacy_matcher')
+        doc = _pipeline()(text)
+    contexts = [sentence.text for sentence in doc.sents if quote in sentence.text]
+    if not contexts:
+        contexts = [quote]
+    days = set()
+    for context in contexts:
+        lower = context.lower()
+        if (re.search(r'\byesterday\b', lower) and re.search(r'\btoday\b', lower)) or re.search(
+            r'\b(?:(?:over|for|in|past|last)\s+(?:the\s+)?(?:last\s+|past\s+)?(?:several|multiple|few|\d+|two|three|four|five|six|seven)\s+days?|since\s+(?:monday|tuesday|wednesday|thursday|friday|saturday|sunday))\b', lower
+        ):
+            return None
+        day = date.fromisoformat(report_date)
+        if re.search(r'\byesterday\b', lower):
+            day -= timedelta(days=1)
+        days.add(day.isoformat())
+    return next(iter(days)) if len(days) == 1 else None
+
+
 def parse_report(report: dict) -> list[dict]:
     report_date = report.get('report_date') or report['submission_timestamp'][:10]
     rows = parse_text(report.get('free_text_report', report.get('raw_text', '')), report_date)

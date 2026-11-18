@@ -3,10 +3,18 @@ __pycache__/
 .pytest_cache/
 *.pyc
 data/*.sqlite*
-.env
+data/*.review.lock
+.env*
 .streamlit/secrets.toml
 .DS_Store
 .claude/
 .serena/
-# Downloaded demo bundle used during exploration; extracted fixtures are tracked.
 /index.js
+
+# Assessment brief, internal research, and documentation
+docs/
+*.pdf
+*research*
+/data/synthetic/review.md
+*.log
+

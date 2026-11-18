@@ -1,0 +1,468 @@
+{
+  "reports": [
+    {
+      "report_id": "CHK-SYN-PT-103-D01",
+      "observations": [
+        {
+          "symptom": "pain",
+          "presence": "absent",
+          "evidence_quote": "no pain"
+        },
+        {
+          "symptom": "nausea",
+          "presence": "absent",
+          "evidence_quote": "no nausea"
+        }
+      ]
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D02",
+      "observations": [
+        {
+          "symptom": "dry_mouth",
+          "presence": "present",
+          "evidence_quote": "Throat feels a touch dry"
+        }
+      ]
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D03",
+      "observations": [
+        {
+          "symptom": "nausea",
+          "presence": "present",
+          "evidence_quote": "Felt green around the gills"
+        },
+        {
+          "symptom": "vomiting",
+          "presence": "present",
+          "evidence_quote": "threw up once in the driveway"
+        }
+      ]
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D04",
+      "observations": [
+        {
+          "symptom": "vomiting",
+          "presence": "present",
+          "evidence_quote": "Heaved twice after breakfast"
+        },
+        {
+          "symptom": "nausea",
+          "presence": "present",
+          "evidence_quote": "Nausea is about a 5 out of 10."
+        }
+      ]
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D05",
+      "observations": [
+        {
+          "symptom": "singultus",
+          "presence": "present",
+          "evidence_quote": "violent hiccups around noon that wouldn't stop for four hours straight"
+        },
+        {
+          "symptom": "pain",
+          "presence": "present",
+          "evidence_quote": "Chest muscles ache from it."
+        },
+        {
+          "symptom": "nausea",
+          "presence": "present",
+          "evidence_quote": "Nausea is down to 3"
+        },
+        {
+          "symptom": "vomiting",
+          "presence": "absent",
+          "evidence_quote": "no throwing up today"
+        }
+      ]
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D06",
+      "observations": [
+        {
+          "symptom": "singultus",
+          "presence": "present",
+          "evidence_quote": "Hiccups finally eased off this morning, just a few stray ones."
+        },
+        {
+          "symptom": "nausea",
+          "presence": "present",
+          "evidence_quote": "nausea 2/10"
+        },
+        {
+          "symptom": "vomiting",
+          "presence": "absent",
+          "evidence_quote": "No vomiting."
+        }
+      ]
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D07",
+      "observations": [
+        {
+          "symptom": "fatigue",
+          "presence": "present",
+          "evidence_quote": "Felt worn out today"
+        },
+        {
+          "symptom": "nausea",
+          "presence": "absent",
+          "evidence_quote": "no nausea"
+        },
+        {
+          "symptom": "vomiting",
+          "presence": "absent",
+          "evidence_quote": "no throwing up"
+        }
+      ]
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D08",
+      "observations": []
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D09",
+      "observations": [
+        {
+          "symptom": "pain",
+          "presence": "present",
+          "evidence_quote": "Throat is mildly sore, pain at 2/10."
+        },
+        {
+          "symptom": "nausea",
+          "presence": "absent",
+          "evidence_quote": "Denies nausea."
+        }
+      ]
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D10",
+      "observations": [
+        {
+          "symptom": "vomiting",
+          "presence": "present",
+          "evidence_quote": "Chucked up my lunch twice right after getting home."
+        },
+        {
+          "symptom": "nausea",
+          "presence": "present",
+          "evidence_quote": "Nausea was a solid 6."
+        }
+      ]
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D11",
+      "observations": [
+        {
+          "symptom": "tinnitus",
+          "presence": "present",
+          "evidence_quote": "persistent high-pitched ringing in both ears that started last night and won't go away"
+        },
+        {
+          "symptom": "vomiting",
+          "presence": "present",
+          "evidence_quote": "Vomited once this morning."
+        },
+        {
+          "symptom": "nausea",
+          "presence": "present",
+          "evidence_quote": "Nausea at 5."
+        }
+      ]
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D12",
+      "observations": [
+        {
+          "symptom": "tinnitus",
+          "presence": "present",
+          "evidence_quote": "Constant ringing like a tea kettle in my ears all day."
+        },
+        {
+          "symptom": "nausea",
+          "presence": "present",
+          "evidence_quote": "Nausea is a 4"
+        },
+        {
+          "symptom": "vomiting",
+          "presence": "present",
+          "evidence_quote": "threw up breakfast"
+        },
+        {
+          "symptom": "dysphagia",
+          "presence": "present",
+          "evidence_quote": "Swallowing is getting tricky."
+        }
+      ]
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D13",
+      "observations": [
+        {
+          "symptom": "vomiting",
+          "presence": "present",
+          "evidence_quote": "Threw up a few times yesterday and this morning, mostly dry heaves."
+        },
+        {
+          "symptom": "tinnitus",
+          "presence": "present",
+          "evidence_quote": "Ears are still buzzing."
+        }
+      ]
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D14",
+      "observations": [
+        {
+          "symptom": "nausea",
+          "presence": "present",
+          "evidence_quote": "Nausea is down to a 3."
+        },
+        {
+          "symptom": "vomiting",
+          "presence": "absent",
+          "evidence_quote": "No vomiting today."
+        },
+        {
+          "symptom": "pain",
+          "presence": "present",
+          "evidence_quote": "Throat is sore (pain 5/10)"
+        },
+        {
+          "symptom": "tinnitus",
+          "presence": "present",
+          "evidence_quote": "ears still ringing"
+        }
+      ]
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D16",
+      "observations": [
+        {
+          "symptom": "fatigue",
+          "presence": "present",
+          "evidence_quote": "sleeping off fatigue"
+        },
+        {
+          "symptom": "nausea",
+          "presence": "present",
+          "evidence_quote": "nausea at 3"
+        },
+        {
+          "symptom": "tinnitus",
+          "presence": "present",
+          "evidence_quote": "the ear ringing is definitely here to stay"
+        }
+      ]
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D17",
+      "observations": [
+        {
+          "symptom": "vomiting",
+          "presence": "present",
+          "evidence_quote": "Heaved my guts out 3 times this afternoon."
+        },
+        {
+          "symptom": "nausea",
+          "presence": "present",
+          "evidence_quote": "Nausea is a 7."
+        }
+      ]
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D18",
+      "observations": [
+        {
+          "symptom": "tinnitus",
+          "presence": "present",
+          "evidence_quote": "Ear ringing got louder after yesterday's chemo."
+        },
+        {
+          "symptom": "vomiting",
+          "presence": "present",
+          "evidence_quote": "Vomited twice today."
+        },
+        {
+          "symptom": "breathlessness",
+          "presence": "present",
+          "evidence_quote": "strangely winded just walking from bedroom to kitchen."
+        }
+      ]
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D19",
+      "observations": [
+        {
+          "symptom": "fainting",
+          "presence": "present",
+          "evidence_quote": "passed out for a few seconds on the rug"
+        },
+        {
+          "symptom": "vomiting",
+          "presence": "present",
+          "evidence_quote": "Vomited once earlier."
+        },
+        {
+          "symptom": "nausea",
+          "presence": "present",
+          "evidence_quote": "Nausea 5."
+        }
+      ]
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D20",
+      "observations": [
+        {
+          "symptom": "vomiting",
+          "presence": "absent",
+          "evidence_quote": "No throwing up today."
+        },
+        {
+          "symptom": "nausea",
+          "presence": "present",
+          "evidence_quote": "Nausea is at 4."
+        }
+      ]
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D21",
+      "observations": [
+        {
+          "symptom": "pain",
+          "presence": "present",
+          "evidence_quote": "throat hurts too much for bread. Pain is easily a 7"
+        },
+        {
+          "symptom": "dysphagia",
+          "presence": "present",
+          "evidence_quote": "when trying to swallow"
+        }
+      ]
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D22",
+      "observations": [
+        {
+          "symptom": "peripheral_neuropathy",
+          "presence": "present",
+          "evidence_quote": "My fingertips feel numb and prickly like pins and needles."
+        },
+        {
+          "symptom": "nausea",
+          "presence": "present",
+          "evidence_quote": "Nausea is down to 2."
+        }
+      ]
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D23",
+      "observations": [
+        {
+          "symptom": "peripheral_neuropathy",
+          "presence": "present",
+          "evidence_quote": "Tingling spread to my toes today."
+        },
+        {
+          "symptom": "tinnitus",
+          "presence": "present",
+          "evidence_quote": "Ear ringing constant."
+        },
+        {
+          "symptom": "vomiting",
+          "presence": "absent",
+          "evidence_quote": "No vomiting."
+        }
+      ]
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D24",
+      "observations": [
+        {
+          "symptom": "tinnitus",
+          "presence": "present",
+          "evidence_quote": "ringing"
+        },
+        {
+          "symptom": "peripheral_neuropathy",
+          "presence": "present",
+          "evidence_quote": "numb fingers"
+        },
+        {
+          "symptom": "vomiting",
+          "presence": "present",
+          "evidence_quote": "Threw up twice after getting home."
+        },
+        {
+          "symptom": "nausea",
+          "presence": "present",
+          "evidence_quote": "Nausea is at a 6."
+        }
+      ]
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D25",
+      "observations": [
+        {
+          "symptom": "singultus",
+          "presence": "present",
+          "evidence_quote": "The hiccups came back after the steroid infusion yesterday"
+        },
+        {
+          "symptom": "tinnitus",
+          "presence": "present",
+          "evidence_quote": "ear ringing"
+        },
+        {
+          "symptom": "vomiting",
+          "presence": "present",
+          "evidence_quote": "Vomited once around lunch."
+        },
+        {
+          "symptom": "nausea",
+          "presence": "present",
+          "evidence_quote": "Nausea at 5."
+        }
+      ]
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D26",
+      "observations": [
+        {
+          "symptom": "vomiting",
+          "presence": "present",
+          "evidence_quote": "Heaved once before noon and once after... wait, actually vomited three times total today if counting the morning bile."
+        },
+        {
+          "symptom": "nausea",
+          "presence": "present",
+          "evidence_quote": "Nausea at 6."
+        }
+      ]
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D28",
+      "observations": [
+        {
+          "symptom": "tinnitus",
+          "presence": "present",
+          "evidence_quote": "Ears are still ringing"
+        },
+        {
+          "symptom": "peripheral_neuropathy",
+          "presence": "present",
+          "evidence_quote": "fingers still numb and tingling"
+        },
+        {
+          "symptom": "vomiting",
+          "presence": "absent",
+          "evidence_quote": "No vomiting today."
+        }
+      ]
+    }
+  ]
+}

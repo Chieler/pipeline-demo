@@ -1,0 +1,898 @@
+[
+  {
+    "report_id": "CHK-SYN-PT-103-D01",
+    "submitted_at": "2026-10-05T08:30:00",
+    "text": "First radiation session down. Feeling fine, no pain, no nausea. Had my usual roast beef sandwich for lunch.",
+    "local_observations": [
+      {
+        "symptom": "pain",
+        "original_phrase": "pain",
+        "presence": "absent",
+        "severity_value": null,
+        "severity_scale": null,
+        "severity_text": null,
+        "episode_count": null,
+        "observed_date": "2026-10-05",
+        "timing_text": null,
+        "medication_mentioned": null,
+        "evidence": "Feeling fine, no pain, no nausea.",
+        "source": "text",
+        "issues_json": [],
+        "is_full_day": false,
+        "count_eligible": true
+      },
+      {
+        "symptom": "nausea",
+        "original_phrase": "nausea",
+        "presence": "absent",
+        "severity_value": null,
+        "severity_scale": null,
+        "severity_text": null,
+        "episode_count": null,
+        "observed_date": "2026-10-05",
+        "timing_text": null,
+        "medication_mentioned": null,
+        "evidence": "Feeling fine, no pain, no nausea.",
+        "source": "text",
+        "issues_json": [],
+        "is_full_day": false,
+        "count_eligible": true
+      }
+    ]
+  },
+  {
+    "report_id": "CHK-SYN-PT-103-D02",
+    "submitted_at": "2026-10-06T08:30:00",
+    "text": "Radiation #2 done. Throat feels a touch dry, otherwise 100%. No stomach trouble.",
+    "local_observations": []
+  },
+  {
+    "report_id": "CHK-SYN-PT-103-D03",
+    "submitted_at": "2026-10-07T08:30:00",
+    "text": "Got my first bag of cisplatin today. Felt green around the gills on the drive home, threw up once in the driveway. Took the melt-in-mouth nausea tablet.",
+    "local_observations": [
+      {
+        "symptom": "vomiting",
+        "original_phrase": "threw up",
+        "presence": "present",
+        "severity_value": null,
+        "severity_scale": null,
+        "severity_text": null,
+        "episode_count": 1,
+        "observed_date": "2026-10-07",
+        "timing_text": null,
+        "medication_mentioned": null,
+        "evidence": "Felt green around the gills on the drive home, threw up once in the driveway.",
+        "source": "text",
+        "issues_json": [],
+        "is_full_day": false,
+        "count_eligible": true
+      },
+      {
+        "symptom": "nausea",
+        "original_phrase": "nausea",
+        "presence": "present",
+        "severity_value": null,
+        "severity_scale": null,
+        "severity_text": null,
+        "episode_count": null,
+        "observed_date": "2026-10-07",
+        "timing_text": null,
+        "medication_mentioned": null,
+        "evidence": "Took the melt-in-mouth nausea tablet.",
+        "source": "text",
+        "issues_json": [],
+        "is_full_day": false,
+        "count_eligible": true
+      }
+    ]
+  },
+  {
+    "report_id": "CHK-SYN-PT-103-D04",
+    "submitted_at": "2026-10-08T08:30:00",
+    "text": "Stomach was churning all morning. Heaved twice after breakfast. Nausea is about a 5 out of 10. Took ondansetron.",
+    "local_observations": [
+      {
+        "symptom": "nausea",
+        "original_phrase": "Nausea",
+        "presence": "present",
+        "severity_value": 5,
+        "severity_scale": "0-10",
+        "severity_text": null,
+        "episode_count": null,
+        "observed_date": "2026-10-08",
+        "timing_text": null,
+        "medication_mentioned": null,
+        "evidence": "Nausea is about a 5 out of 10.",
+        "source": "text",
+        "issues_json": [],
+        "is_full_day": false,
+        "count_eligible": true
+      }
+    ]
+  },
+  {
+    "report_id": "CHK-SYN-PT-103-D05",
+    "submitted_at": "2026-10-09T08:30:00",
+    "text": "Started getting violent hiccups around noon that wouldn't stop for four hours straight. Chest muscles ache from it. Nausea is down to 3, no throwing up today.",
+    "local_observations": [
+      {
+        "symptom": "nausea",
+        "original_phrase": "Nausea",
+        "presence": "present",
+        "severity_value": null,
+        "severity_scale": null,
+        "severity_text": null,
+        "episode_count": null,
+        "observed_date": "2026-10-09",
+        "timing_text": "today",
+        "medication_mentioned": null,
+        "evidence": "Nausea is down to 3, no throwing up today.",
+        "source": "text",
+        "issues_json": [],
+        "is_full_day": false,
+        "count_eligible": true
+      },
+      {
+        "symptom": "vomiting",
+        "original_phrase": "throwing up",
+        "presence": "absent",
+        "severity_value": null,
+        "severity_scale": null,
+        "severity_text": null,
+        "episode_count": 0,
+        "observed_date": "2026-10-09",
+        "timing_text": "today",
+        "medication_mentioned": null,
+        "evidence": "Nausea is down to 3, no throwing up today.",
+        "source": "text",
+        "issues_json": [],
+        "is_full_day": true,
+        "count_eligible": true
+      }
+    ]
+  },
+  {
+    "report_id": "CHK-SYN-PT-103-D06",
+    "submitted_at": "2026-10-10T08:30:00",
+    "text": "Hiccups finally eased off this morning, just a few stray ones. Stomach is settling down, nausea 2/10. No vomiting.",
+    "local_observations": [
+      {
+        "symptom": "nausea",
+        "original_phrase": "nausea",
+        "presence": "present",
+        "severity_value": 2,
+        "severity_scale": "0-10",
+        "severity_text": null,
+        "episode_count": null,
+        "observed_date": "2026-10-10",
+        "timing_text": null,
+        "medication_mentioned": null,
+        "evidence": "Stomach is settling down, nausea 2/10.",
+        "source": "text",
+        "issues_json": [],
+        "is_full_day": false,
+        "count_eligible": true
+      },
+      {
+        "symptom": "vomiting",
+        "original_phrase": "vomiting",
+        "presence": "absent",
+        "severity_value": null,
+        "severity_scale": null,
+        "severity_text": null,
+        "episode_count": null,
+        "observed_date": "2026-10-10",
+        "timing_text": null,
+        "medication_mentioned": null,
+        "evidence": "No vomiting.",
+        "source": "text",
+        "issues_json": [],
+        "is_full_day": false,
+        "count_eligible": true
+      }
+    ]
+  },
+  {
+    "report_id": "CHK-SYN-PT-103-D07",
+    "submitted_at": "2026-10-11T08:30:00",
+    "text": "Felt worn out today, rested on the recliner. Throat feels scratchy, but no nausea and no throwing up.",
+    "local_observations": [
+      {
+        "symptom": "nausea",
+        "original_phrase": "nausea",
+        "presence": "absent",
+        "severity_value": null,
+        "severity_scale": null,
+        "severity_text": null,
+        "episode_count": null,
+        "observed_date": "2026-10-11",
+        "timing_text": null,
+        "medication_mentioned": null,
+        "evidence": "Throat feels scratchy, but no nausea and no throwing up.",
+        "source": "text",
+        "issues_json": [],
+        "is_full_day": false,
+        "count_eligible": true
+      },
+      {
+        "symptom": "vomiting",
+        "original_phrase": "throwing up",
+        "presence": "absent",
+        "severity_value": null,
+        "severity_scale": null,
+        "severity_text": null,
+        "episode_count": null,
+        "observed_date": "2026-10-11",
+        "timing_text": null,
+        "medication_mentioned": null,
+        "evidence": "Throat feels scratchy, but no nausea and no throwing up.",
+        "source": "text",
+        "issues_json": [],
+        "is_full_day": false,
+        "count_eligible": true
+      }
+    ]
+  },
+  {
+    "report_id": "CHK-SYN-PT-103-D08",
+    "submitted_at": "2026-10-12T08:30:00",
+    "text": "Good day. Radiation session 6 done. Ate beef stew cut up small. No stomach upset whatsoever.",
+    "local_observations": []
+  },
+  {
+    "report_id": "CHK-SYN-PT-103-D09",
+    "submitted_at": "2026-10-13T08:30:00",
+    "text": "Pre-chemo labs done. Hydrating with water. Throat is mildly sore, pain at 2/10. Denies nausea.",
+    "local_observations": [
+      {
+        "symptom": "pain",
+        "original_phrase": "pain",
+        "presence": "present",
+        "severity_value": 2,
+        "severity_scale": "0-10",
+        "severity_text": null,
+        "episode_count": null,
+        "observed_date": "2026-10-13",
+        "timing_text": null,
+        "medication_mentioned": null,
+        "evidence": "pain at 2/10.",
+        "source": "text",
+        "issues_json": [],
+        "is_full_day": false,
+        "count_eligible": true
+      },
+      {
+        "symptom": "nausea",
+        "original_phrase": "nausea",
+        "presence": "absent",
+        "severity_value": null,
+        "severity_scale": null,
+        "severity_text": null,
+        "episode_count": null,
+        "observed_date": "2026-10-13",
+        "timing_text": null,
+        "medication_mentioned": null,
+        "evidence": "Denies nausea.",
+        "source": "text",
+        "issues_json": [],
+        "is_full_day": false,
+        "count_eligible": true
+      }
+    ]
+  },
+  {
+    "report_id": "CHK-SYN-PT-103-D10",
+    "submitted_at": "2026-10-14T08:30:00",
+    "text": "Chemo #2 today. Chucked up my lunch twice right after getting home. Nausea was a solid 6. Took the dissolvable ondansetron.",
+    "local_observations": [
+      {
+        "symptom": "nausea",
+        "original_phrase": "Nausea",
+        "presence": "present",
+        "severity_value": null,
+        "severity_scale": null,
+        "severity_text": null,
+        "episode_count": null,
+        "observed_date": "2026-10-14",
+        "timing_text": null,
+        "medication_mentioned": null,
+        "evidence": "Nausea was a solid 6.",
+        "source": "text",
+        "issues_json": [],
+        "is_full_day": false,
+        "count_eligible": true
+      }
+    ]
+  },
+  {
+    "report_id": "CHK-SYN-PT-103-D11",
+    "submitted_at": "2026-10-15T08:30:00",
+    "text": "There is a persistent high-pitched ringing in both ears that started last night and won't go away. Vomited once this morning. Nausea at 5.",
+    "local_observations": [
+      {
+        "symptom": "vomiting",
+        "original_phrase": "Vomited",
+        "presence": "present",
+        "severity_value": null,
+        "severity_scale": null,
+        "severity_text": null,
+        "episode_count": 1,
+        "observed_date": "2026-10-15",
+        "timing_text": "this morning",
+        "medication_mentioned": null,
+        "evidence": "Vomited once this morning.",
+        "source": "text",
+        "issues_json": [],
+        "is_full_day": false,
+        "count_eligible": true
+      },
+      {
+        "symptom": "nausea",
+        "original_phrase": "Nausea",
+        "presence": "present",
+        "severity_value": null,
+        "severity_scale": null,
+        "severity_text": null,
+        "episode_count": null,
+        "observed_date": "2026-10-15",
+        "timing_text": null,
+        "medication_mentioned": null,
+        "evidence": "Nausea at 5.",
+        "source": "text",
+        "issues_json": [],
+        "is_full_day": false,
+        "count_eligible": true
+      }
+    ]
+  },
+  {
+    "report_id": "CHK-SYN-PT-103-D12",
+    "submitted_at": "2026-10-16T08:30:00",
+    "text": "Constant ringing like a tea kettle in my ears all day. Nausea is a 4, threw up breakfast. Swallowing is getting tricky.",
+    "local_observations": [
+      {
+        "symptom": "nausea",
+        "original_phrase": "Nausea",
+        "presence": "present",
+        "severity_value": null,
+        "severity_scale": null,
+        "severity_text": null,
+        "episode_count": null,
+        "observed_date": "2026-10-16",
+        "timing_text": null,
+        "medication_mentioned": null,
+        "evidence": "Nausea is a 4, threw up breakfast.",
+        "source": "text",
+        "issues_json": [],
+        "is_full_day": false,
+        "count_eligible": true
+      },
+      {
+        "symptom": "vomiting",
+        "original_phrase": "threw up",
+        "presence": "present",
+        "severity_value": null,
+        "severity_scale": null,
+        "severity_text": null,
+        "episode_count": null,
+        "observed_date": "2026-10-16",
+        "timing_text": null,
+        "medication_mentioned": null,
+        "evidence": "Nausea is a 4, threw up breakfast.",
+        "source": "text",
+        "issues_json": [],
+        "is_full_day": false,
+        "count_eligible": true
+      }
+    ]
+  },
+  {
+    "report_id": "CHK-SYN-PT-103-D13",
+    "submitted_at": "2026-10-17T08:30:00",
+    "text": "Felt pretty rotten today. Threw up a few times yesterday and this morning, mostly dry heaves. Ears are still buzzing.",
+    "local_observations": [
+      {
+        "symptom": "vomiting",
+        "original_phrase": "Threw up",
+        "presence": "present",
+        "severity_value": null,
+        "severity_scale": null,
+        "severity_text": null,
+        "episode_count": null,
+        "observed_date": "2026-10-16",
+        "timing_text": "yesterday",
+        "medication_mentioned": null,
+        "evidence": "Threw up a few times yesterday and this morning, mostly dry heaves.",
+        "source": "text",
+        "issues_json": [
+          "unquantified_count"
+        ],
+        "is_full_day": false,
+        "count_eligible": false
+      }
+    ]
+  },
+  {
+    "report_id": "CHK-SYN-PT-103-D14",
+    "submitted_at": "2026-10-18T08:30:00",
+    "text": "Nausea is down to a 3. No vomiting today. Throat is sore (pain 5/10), ears still ringing. Managed scrambled eggs.",
+    "local_observations": [
+      {
+        "symptom": "nausea",
+        "original_phrase": "Nausea",
+        "presence": "present",
+        "severity_value": null,
+        "severity_scale": null,
+        "severity_text": null,
+        "episode_count": null,
+        "observed_date": "2026-10-18",
+        "timing_text": null,
+        "medication_mentioned": null,
+        "evidence": "Nausea is down to a 3.",
+        "source": "text",
+        "issues_json": [],
+        "is_full_day": false,
+        "count_eligible": true
+      },
+      {
+        "symptom": "vomiting",
+        "original_phrase": "vomiting",
+        "presence": "absent",
+        "severity_value": null,
+        "severity_scale": null,
+        "severity_text": null,
+        "episode_count": 0,
+        "observed_date": "2026-10-18",
+        "timing_text": "today",
+        "medication_mentioned": null,
+        "evidence": "No vomiting today.",
+        "source": "text",
+        "issues_json": [],
+        "is_full_day": true,
+        "count_eligible": true
+      },
+      {
+        "symptom": "pain",
+        "original_phrase": "pain",
+        "presence": "present",
+        "severity_value": 5,
+        "severity_scale": "0-10",
+        "severity_text": null,
+        "episode_count": null,
+        "observed_date": "2026-10-18",
+        "timing_text": null,
+        "medication_mentioned": null,
+        "evidence": "Throat is sore (pain 5/10), ears still ringing.",
+        "source": "text",
+        "issues_json": [],
+        "is_full_day": false,
+        "count_eligible": true
+      }
+    ]
+  },
+  {
+    "report_id": "CHK-SYN-PT-103-D16",
+    "submitted_at": "2026-10-20T08:30:00",
+    "text": "Forgot to log yesterday, was sleeping off fatigue. Feeling somewhat steadier today, nausea at 3, but the ear ringing is definitely here to stay.",
+    "local_observations": [
+      {
+        "symptom": "fatigue",
+        "original_phrase": "fatigue",
+        "presence": "present",
+        "severity_value": null,
+        "severity_scale": null,
+        "severity_text": null,
+        "episode_count": null,
+        "observed_date": "2026-10-19",
+        "timing_text": "yesterday",
+        "medication_mentioned": null,
+        "evidence": "Forgot to log yesterday, was sleeping off fatigue.",
+        "source": "text",
+        "issues_json": [],
+        "is_full_day": false,
+        "count_eligible": true
+      },
+      {
+        "symptom": "nausea",
+        "original_phrase": "nausea",
+        "presence": "present",
+        "severity_value": null,
+        "severity_scale": null,
+        "severity_text": null,
+        "episode_count": null,
+        "observed_date": "2026-10-20",
+        "timing_text": null,
+        "medication_mentioned": null,
+        "evidence": "nausea at 3, but the ear ringing is definitely here to stay.",
+        "source": "text",
+        "issues_json": [],
+        "is_full_day": false,
+        "count_eligible": true
+      }
+    ]
+  },
+  {
+    "report_id": "CHK-SYN-PT-103-D17",
+    "submitted_at": "2026-10-21T08:30:00",
+    "text": "Third chemo session. Heaved my guts out 3 times this afternoon. Nausea is a 7. Took metoclopramide before dinner.",
+    "local_observations": [
+      {
+        "symptom": "nausea",
+        "original_phrase": "Nausea",
+        "presence": "present",
+        "severity_value": null,
+        "severity_scale": null,
+        "severity_text": null,
+        "episode_count": null,
+        "observed_date": "2026-10-21",
+        "timing_text": null,
+        "medication_mentioned": null,
+        "evidence": "Nausea is a 7.",
+        "source": "text",
+        "issues_json": [],
+        "is_full_day": false,
+        "count_eligible": true
+      }
+    ]
+  },
+  {
+    "report_id": "CHK-SYN-PT-103-D18",
+    "submitted_at": "2026-10-22T08:30:00",
+    "text": "Ear ringing got louder after yesterday's chemo. Vomited twice today. Also felt strangely winded just walking from bedroom to kitchen.",
+    "local_observations": [
+      {
+        "symptom": "vomiting",
+        "original_phrase": "Vomited",
+        "presence": "present",
+        "severity_value": null,
+        "severity_scale": null,
+        "severity_text": null,
+        "episode_count": 2,
+        "observed_date": "2026-10-22",
+        "timing_text": "today",
+        "medication_mentioned": null,
+        "evidence": "Vomited twice today.",
+        "source": "text",
+        "issues_json": [],
+        "is_full_day": false,
+        "count_eligible": true
+      }
+    ]
+  },
+  {
+    "report_id": "CHK-SYN-PT-103-D19",
+    "submitted_at": "2026-10-23T08:30:00",
+    "text": "Scary moment: stood up from the sofa and actually passed out for a few seconds on the rug. My wife had to help me back up. Vomited once earlier. Nausea 5.",
+    "local_observations": [
+      {
+        "symptom": "fainting",
+        "original_phrase": "passed out",
+        "presence": "present",
+        "severity_value": null,
+        "severity_scale": null,
+        "severity_text": null,
+        "episode_count": null,
+        "observed_date": "2026-10-23",
+        "timing_text": null,
+        "medication_mentioned": null,
+        "evidence": "Scary moment: stood up from the sofa and actually passed out for a few seconds on the rug.",
+        "source": "text",
+        "issues_json": [],
+        "is_full_day": false,
+        "count_eligible": true
+      },
+      {
+        "symptom": "vomiting",
+        "original_phrase": "Vomited",
+        "presence": "present",
+        "severity_value": null,
+        "severity_scale": null,
+        "severity_text": null,
+        "episode_count": 1,
+        "observed_date": "2026-10-23",
+        "timing_text": null,
+        "medication_mentioned": null,
+        "evidence": "Vomited once earlier.",
+        "source": "text",
+        "issues_json": [],
+        "is_full_day": false,
+        "count_eligible": true
+      },
+      {
+        "symptom": "nausea",
+        "original_phrase": "Nausea",
+        "presence": "present",
+        "severity_value": null,
+        "severity_scale": null,
+        "severity_text": null,
+        "episode_count": null,
+        "observed_date": "2026-10-23",
+        "timing_text": null,
+        "medication_mentioned": null,
+        "evidence": "Nausea 5.",
+        "source": "text",
+        "issues_json": [],
+        "is_full_day": false,
+        "count_eligible": true
+      }
+    ]
+  },
+  {
+    "report_id": "CHK-SYN-PT-103-D20",
+    "submitted_at": "2026-10-24T08:30:00",
+    "text": "Staying horizontal today on doctor's orders. Drank electrolyte drinks. No throwing up today. Nausea is at 4.",
+    "local_observations": [
+      {
+        "symptom": "vomiting",
+        "original_phrase": "throwing up",
+        "presence": "absent",
+        "severity_value": null,
+        "severity_scale": null,
+        "severity_text": null,
+        "episode_count": 0,
+        "observed_date": "2026-10-24",
+        "timing_text": "today",
+        "medication_mentioned": null,
+        "evidence": "No throwing up today.",
+        "source": "text",
+        "issues_json": [],
+        "is_full_day": true,
+        "count_eligible": true
+      },
+      {
+        "symptom": "nausea",
+        "original_phrase": "Nausea",
+        "presence": "present",
+        "severity_value": null,
+        "severity_scale": null,
+        "severity_text": null,
+        "episode_count": null,
+        "observed_date": "2026-10-24",
+        "timing_text": null,
+        "medication_mentioned": null,
+        "evidence": "Nausea is at 4.",
+        "source": "text",
+        "issues_json": [],
+        "is_full_day": false,
+        "count_eligible": true
+      }
+    ]
+  },
+  {
+    "report_id": "CHK-SYN-PT-103-D21",
+    "submitted_at": "2026-10-25T08:30:00",
+    "text": "Can only get down lukewarm soup, throat hurts too much for bread. Pain is easily a 7 when trying to swallow.",
+    "local_observations": [
+      {
+        "symptom": "pain",
+        "original_phrase": "throat hurts",
+        "presence": "present",
+        "severity_value": null,
+        "severity_scale": null,
+        "severity_text": null,
+        "episode_count": null,
+        "observed_date": "2026-10-25",
+        "timing_text": null,
+        "medication_mentioned": null,
+        "evidence": "Can only get down lukewarm soup, throat hurts too much for bread.",
+        "source": "text",
+        "issues_json": [],
+        "is_full_day": false,
+        "count_eligible": true
+      },
+      {
+        "symptom": "pain",
+        "original_phrase": "Pain",
+        "presence": "present",
+        "severity_value": null,
+        "severity_scale": null,
+        "severity_text": null,
+        "episode_count": null,
+        "observed_date": "2026-10-25",
+        "timing_text": null,
+        "medication_mentioned": null,
+        "evidence": "Pain is easily a 7 when trying to swallow.",
+        "source": "text",
+        "issues_json": [],
+        "is_full_day": false,
+        "count_eligible": true
+      }
+    ]
+  },
+  {
+    "report_id": "CHK-SYN-PT-103-D22",
+    "submitted_at": "2026-10-26T08:30:00",
+    "text": "My fingertips feel numb and prickly like pins and needles. Dropped my coffee mug this morning because I couldn't feel it properly. Nausea is down to 2.",
+    "local_observations": [
+      {
+        "symptom": "nausea",
+        "original_phrase": "Nausea",
+        "presence": "present",
+        "severity_value": null,
+        "severity_scale": null,
+        "severity_text": null,
+        "episode_count": null,
+        "observed_date": "2026-10-26",
+        "timing_text": null,
+        "medication_mentioned": null,
+        "evidence": "Nausea is down to 2.",
+        "source": "text",
+        "issues_json": [],
+        "is_full_day": false,
+        "count_eligible": true
+      }
+    ]
+  },
+  {
+    "report_id": "CHK-SYN-PT-103-D23",
+    "submitted_at": "2026-10-27T08:30:00",
+    "text": "Tingling spread to my toes today. Walking feels like walking on bubble wrap. Ear ringing constant. No vomiting.",
+    "local_observations": [
+      {
+        "symptom": "vomiting",
+        "original_phrase": "vomiting",
+        "presence": "absent",
+        "severity_value": null,
+        "severity_scale": null,
+        "severity_text": null,
+        "episode_count": null,
+        "observed_date": "2026-10-27",
+        "timing_text": null,
+        "medication_mentioned": null,
+        "evidence": "No vomiting.",
+        "source": "text",
+        "issues_json": [],
+        "is_full_day": false,
+        "count_eligible": true
+      }
+    ]
+  },
+  {
+    "report_id": "CHK-SYN-PT-103-D24",
+    "submitted_at": "2026-10-28T08:30:00",
+    "text": "Chemo #4. Told doctor about the ringing and numb fingers. Threw up twice after getting home. Nausea is at a 6.",
+    "local_observations": [
+      {
+        "symptom": "vomiting",
+        "original_phrase": "Threw up",
+        "presence": "present",
+        "severity_value": null,
+        "severity_scale": null,
+        "severity_text": null,
+        "episode_count": 2,
+        "observed_date": "2026-10-28",
+        "timing_text": null,
+        "medication_mentioned": null,
+        "evidence": "Threw up twice after getting home.",
+        "source": "text",
+        "issues_json": [],
+        "is_full_day": false,
+        "count_eligible": true
+      },
+      {
+        "symptom": "nausea",
+        "original_phrase": "Nausea",
+        "presence": "present",
+        "severity_value": null,
+        "severity_scale": null,
+        "severity_text": null,
+        "episode_count": null,
+        "observed_date": "2026-10-28",
+        "timing_text": null,
+        "medication_mentioned": null,
+        "evidence": "Nausea is at a 6.",
+        "source": "text",
+        "issues_json": [],
+        "is_full_day": false,
+        "count_eligible": true
+      }
+    ]
+  },
+  {
+    "report_id": "CHK-SYN-PT-103-D25",
+    "submitted_at": "2026-10-29T08:30:00",
+    "text": "The hiccups came back after the steroid infusion yesterday, along with ear ringing. Vomited once around lunch. Nausea at 5.",
+    "local_observations": [
+      {
+        "symptom": "vomiting",
+        "original_phrase": "Vomited",
+        "presence": "present",
+        "severity_value": null,
+        "severity_scale": null,
+        "severity_text": null,
+        "episode_count": 1,
+        "observed_date": "2026-10-29",
+        "timing_text": null,
+        "medication_mentioned": null,
+        "evidence": "Vomited once around lunch.",
+        "source": "text",
+        "issues_json": [],
+        "is_full_day": false,
+        "count_eligible": true
+      },
+      {
+        "symptom": "nausea",
+        "original_phrase": "Nausea",
+        "presence": "present",
+        "severity_value": null,
+        "severity_scale": null,
+        "severity_text": null,
+        "episode_count": null,
+        "observed_date": "2026-10-29",
+        "timing_text": null,
+        "medication_mentioned": null,
+        "evidence": "Nausea at 5.",
+        "source": "text",
+        "issues_json": [],
+        "is_full_day": false,
+        "count_eligible": true
+      }
+    ]
+  },
+  {
+    "report_id": "CHK-SYN-PT-103-D26",
+    "submitted_at": "2026-10-30T08:30:00",
+    "text": "Heaved once before noon and once after... wait, actually vomited three times total today if counting the morning bile. Nausea at 6.",
+    "local_observations": [
+      {
+        "symptom": "vomiting",
+        "original_phrase": "vomited",
+        "presence": "present",
+        "severity_value": null,
+        "severity_scale": null,
+        "severity_text": null,
+        "episode_count": 3,
+        "observed_date": "2026-10-30",
+        "timing_text": "today",
+        "medication_mentioned": null,
+        "evidence": "Heaved once before noon and once after... wait, actually vomited three times total today if counting the morning bile.",
+        "source": "text",
+        "issues_json": [],
+        "is_full_day": true,
+        "count_eligible": true
+      },
+      {
+        "symptom": "nausea",
+        "original_phrase": "Nausea",
+        "presence": "present",
+        "severity_value": null,
+        "severity_scale": null,
+        "severity_text": null,
+        "episode_count": null,
+        "observed_date": "2026-10-30",
+        "timing_text": null,
+        "medication_mentioned": null,
+        "evidence": "Nausea at 6.",
+        "source": "text",
+        "issues_json": [],
+        "is_full_day": false,
+        "count_eligible": true
+      }
+    ]
+  },
+  {
+    "report_id": "CHK-SYN-PT-103-D28",
+    "submitted_at": "2026-11-01T08:30:00",
+    "text": "End of week 4. Ears are still ringing, fingers still numb and tingling, but stomach has finally settled down. No vomiting today.",
+    "local_observations": [
+      {
+        "symptom": "vomiting",
+        "original_phrase": "vomiting",
+        "presence": "absent",
+        "severity_value": null,
+        "severity_scale": null,
+        "severity_text": null,
+        "episode_count": 0,
+        "observed_date": "2026-11-01",
+        "timing_text": "today",
+        "medication_mentioned": null,
+        "evidence": "No vomiting today.",
+        "source": "text",
+        "issues_json": [],
+        "is_full_day": true,
+        "count_eligible": true
+      }
+    ]
+  }
+]

@@ -2,7 +2,6 @@
 """
 Synthetic Dataset Generator for Track B (Patient-Reported Data: Store, Manage & Chart)
 Pipeline Securities Inc. Assessment Context
-Author: antigravity-client-19
 
 Enforces:
 1. Ground-truth latent facts generated FIRST.
@@ -1008,9 +1007,8 @@ readme_content = f"""# Synthetic Clinical Dataset: Oncology Chemoradiation & CIN
 **Pipeline Securities Inc. - Track B: Patient-Reported Data: Store, Manage & Chart**  
 **Dataset Version**: 1.1.0 (Fixed reproducible dates, refined vague counts & regimen change fixture)  
 **Date Range**: 2026-10-05 to 2026-11-01 (28 scheduled days)  
-**Authorship**: `antigravity-client-19`
 
-> **Notice**: Model-expected annotations are synthetic agent-reviewed evaluation labels designed for parser benchmarking, not human-verified clinical ground truth.
+> **Notice**: Expected annotations are synthetic evaluation labels designed for parser benchmarking, not human-verified clinical ground truth.
 
 ---
 

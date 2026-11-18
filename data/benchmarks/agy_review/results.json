@@ -1,0 +1,348 @@
+{
+  "reports": 26,
+  "scoring": "Unique symptom/presence pairs per report; text only",
+  "local": {
+    "matched": 39,
+    "extra": 2,
+    "missed": 27,
+    "precision": 0.9512195121951219,
+    "recall": 0.5909090909090909,
+    "f1": 0.7289719626168224
+  },
+  "agy_reviewed": {
+    "matched": 63,
+    "extra": 4,
+    "missed": 3,
+    "precision": 0.9402985074626866,
+    "recall": 0.9545454545454546,
+    "f1": 0.9473684210526315
+  },
+  "f1_delta": 0.21839645843580913,
+  "changes": {
+    "recovered_misses": 24,
+    "new_extras": 2,
+    "removed_extras": 0,
+    "lost_matches": 0
+  },
+  "per_report": [
+    {
+      "report_id": "CHK-SYN-PT-103-D01",
+      "local_missed": [],
+      "reviewed_missed": [],
+      "reviewed_extra": []
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D02",
+      "local_missed": [
+        [
+          "dry_mouth",
+          "present"
+        ],
+        [
+          "nausea",
+          "absent"
+        ]
+      ],
+      "reviewed_missed": [
+        [
+          "nausea",
+          "absent"
+        ]
+      ],
+      "reviewed_extra": []
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D03",
+      "local_missed": [],
+      "reviewed_missed": [],
+      "reviewed_extra": []
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D04",
+      "local_missed": [
+        [
+          "vomiting",
+          "present"
+        ]
+      ],
+      "reviewed_missed": [],
+      "reviewed_extra": []
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D05",
+      "local_missed": [
+        [
+          "singultus",
+          "present"
+        ]
+      ],
+      "reviewed_missed": [],
+      "reviewed_extra": [
+        [
+          "pain",
+          "present"
+        ]
+      ]
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D06",
+      "local_missed": [
+        [
+          "singultus",
+          "present"
+        ]
+      ],
+      "reviewed_missed": [],
+      "reviewed_extra": []
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D07",
+      "local_missed": [
+        [
+          "fatigue",
+          "present"
+        ]
+      ],
+      "reviewed_missed": [],
+      "reviewed_extra": []
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D08",
+      "local_missed": [
+        [
+          "nausea",
+          "absent"
+        ]
+      ],
+      "reviewed_missed": [
+        [
+          "nausea",
+          "absent"
+        ]
+      ],
+      "reviewed_extra": []
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D09",
+      "local_missed": [],
+      "reviewed_missed": [],
+      "reviewed_extra": []
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D10",
+      "local_missed": [
+        [
+          "vomiting",
+          "present"
+        ]
+      ],
+      "reviewed_missed": [],
+      "reviewed_extra": []
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D11",
+      "local_missed": [
+        [
+          "tinnitus",
+          "present"
+        ]
+      ],
+      "reviewed_missed": [],
+      "reviewed_extra": []
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D12",
+      "local_missed": [
+        [
+          "tinnitus",
+          "present"
+        ]
+      ],
+      "reviewed_missed": [],
+      "reviewed_extra": [
+        [
+          "dysphagia",
+          "present"
+        ]
+      ]
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D13",
+      "local_missed": [
+        [
+          "tinnitus",
+          "present"
+        ]
+      ],
+      "reviewed_missed": [],
+      "reviewed_extra": []
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D14",
+      "local_missed": [
+        [
+          "tinnitus",
+          "present"
+        ]
+      ],
+      "reviewed_missed": [],
+      "reviewed_extra": [
+        [
+          "pain",
+          "present"
+        ]
+      ]
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D16",
+      "local_missed": [
+        [
+          "tinnitus",
+          "present"
+        ]
+      ],
+      "reviewed_missed": [],
+      "reviewed_extra": [
+        [
+          "fatigue",
+          "present"
+        ]
+      ]
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D17",
+      "local_missed": [
+        [
+          "vomiting",
+          "present"
+        ]
+      ],
+      "reviewed_missed": [],
+      "reviewed_extra": []
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D18",
+      "local_missed": [
+        [
+          "breathlessness",
+          "present"
+        ],
+        [
+          "tinnitus",
+          "present"
+        ]
+      ],
+      "reviewed_missed": [],
+      "reviewed_extra": []
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D19",
+      "local_missed": [],
+      "reviewed_missed": [],
+      "reviewed_extra": []
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D20",
+      "local_missed": [],
+      "reviewed_missed": [],
+      "reviewed_extra": []
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D21",
+      "local_missed": [
+        [
+          "dysphagia",
+          "present"
+        ]
+      ],
+      "reviewed_missed": [],
+      "reviewed_extra": []
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D22",
+      "local_missed": [
+        [
+          "peripheral_neuropathy",
+          "present"
+        ]
+      ],
+      "reviewed_missed": [],
+      "reviewed_extra": []
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D23",
+      "local_missed": [
+        [
+          "peripheral_neuropathy",
+          "present"
+        ],
+        [
+          "tinnitus",
+          "present"
+        ]
+      ],
+      "reviewed_missed": [],
+      "reviewed_extra": []
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D24",
+      "local_missed": [
+        [
+          "peripheral_neuropathy",
+          "present"
+        ],
+        [
+          "tinnitus",
+          "present"
+        ]
+      ],
+      "reviewed_missed": [],
+      "reviewed_extra": []
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D25",
+      "local_missed": [
+        [
+          "singultus",
+          "present"
+        ],
+        [
+          "tinnitus",
+          "present"
+        ]
+      ],
+      "reviewed_missed": [],
+      "reviewed_extra": []
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D26",
+      "local_missed": [],
+      "reviewed_missed": [],
+      "reviewed_extra": []
+    },
+    {
+      "report_id": "CHK-SYN-PT-103-D28",
+      "local_missed": [
+        [
+          "nausea",
+          "present"
+        ],
+        [
+          "peripheral_neuropathy",
+          "present"
+        ],
+        [
+          "tinnitus",
+          "present"
+        ]
+      ],
+      "reviewed_missed": [
+        [
+          "nausea",
+          "present"
+        ]
+      ],
+      "reviewed_extra": []
+    }
+  ]
+}

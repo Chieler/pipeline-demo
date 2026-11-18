@@ -10,7 +10,7 @@ import plotly.graph_objects as go
 import streamlit as st
 
 from trackb.db import connect, initialize, import_dataset, daily_symptoms, weekly_symptoms, medication_comparison
-from trackb.verify import VerifierConfig, verify_report
+from trackb.agy_review import effective_observations, ensure_background_review, review_status
 
 
 ROOT = Path(__file__).resolve().parent
@@ -38,6 +38,25 @@ def readable_chart(fig):
     return fig
 
 
+@st.fragment(run_every=5)
+def review_progress(patient_id):
+    with closing(connect(DB_PATH)) as status_conn:
+        status = review_status(status_conn, patient_id)
+    signature = tuple(status.values())
+    key = f"review_status_{patient_id}"
+    previous = st.session_state.get(key)
+    st.session_state[key] = signature
+    if previous is not None and previous != signature:
+        st.rerun()
+    if status["pending"]:
+        ensure_background_review(DB_PATH)
+        st.caption(f"Reviewing check-ins: {status['reviewed']} of {status['total']} complete. The symptom overview updates automatically.")
+    elif status["failed"]:
+        st.info(f"{status['reviewed']} of {status['total']} check-ins reviewed. Original findings are shown for check-ins whose review could not be completed.")
+    else:
+        st.caption(f"All {status['total']} check-ins reviewed.")
+
+
 st.set_page_config(page_title="Patient symptom trends", layout="wide")
 st.title("Patient-reported symptoms")
 
@@ -47,6 +66,8 @@ with closing(connect(DB_PATH)) as conn:
     if conn.execute("SELECT COUNT(*) FROM patients").fetchone()[0] == 0:
         with st.spinner("Loading check-ins…"):
             import_dataset(conn, ROOT / "data" / "synthetic")
+
+    ensure_background_review(DB_PATH)
 
     patients = [dict(row) for row in conn.execute("SELECT * FROM patients ORDER BY patient_id")]
     by_id = {patient["patient_id"]: patient for patient in patients}
@@ -81,6 +102,7 @@ with closing(connect(DB_PATH)) as conn:
     st.subheader(f"{patient['name']}, {patient['age']}")
     st.markdown(f"### Reporting period: {start.strftime('%d %b')}–{dates[-1].strftime('%d %b %Y')}")
     st.caption("Radiation with chemotherapy")
+    review_progress(patient_id)
     vomiting = daily[daily["symptom"] == "vomiting"].copy() if not daily.empty else pd.DataFrame()
     episode_total = int(vomiting["episode_count"].sum()) if not vomiting.empty else 0
     excluded = int(vomiting["count_excluded"].sum()) if not vomiting.empty else 0
@@ -237,9 +259,7 @@ with closing(connect(DB_PATH)) as conn:
             column.metric(label, f"{rendered}{unit}" if answer is not None else "Not reported")
     st.markdown("#### Patient message")
     st.write(selected["raw_text"])
-    observations = [dict(row) for row in conn.execute(
-        "SELECT * FROM symptom_observations WHERE report_id=? ORDER BY source, symptom", (report_id,)
-    )]
+    observations = effective_observations(conn, report_id=report_id)
     display_rows = []
     for observation in observations:
         value = observation.get("severity_value")
@@ -263,7 +283,7 @@ with closing(connect(DB_PATH)) as conn:
                 if observation["episode_count"] is not None else "Patient's questionnaire answer."
             )
         display_rows.append({
-            "Source": "Patient text" if observation["source"] == "text" else "Questionnaire",
+            "Source": "Reviewed patient text" if observation.get("review_origin") == "agy" else "Patient text" if observation["source"] == "text" else "Questionnaire",
             "Symptom": symptom, "Reported value": " · ".join(details),
             "Observed date": observation["observed_date"] or "Date unclear",
             "Evidence": evidence,
@@ -277,18 +297,3 @@ with closing(connect(DB_PATH)) as conn:
     local_issues = decoded(selected.get("issues_json"), [])
     if selected.get("review_needed") or local_issues:
         st.warning("Some reported values need review. Check the patient's wording and review notes; unresolved counts are excluded from episode totals.")
-    config = VerifierConfig.from_env()
-    feedback = decoded(selected.get("verification_json"), {"status": "not_run"})
-    if config.api_key:
-        if st.button("Check interpretation", help="Send this check-in for automated review."):
-            with st.spinner("Checking this report…"):
-                feedback = verify_report(selected, observations, config=config)
-            conn.execute("UPDATE reports SET verification_json=? WHERE report_id=?", (json.dumps(feedback), report_id))
-            conn.commit()
-    if feedback.get("status") == "agreed":
-        st.info("Automated review found no discrepancies.")
-    elif feedback.get("status") == "disagreements":
-        st.info("Automated review flagged these items for review. Recorded values have not changed.")
-        st.json(feedback["issues"])
-    elif feedback.get("status") in ("unavailable", "invalid"):
-        st.info("Automated review is unavailable. Recorded values have not changed.")
